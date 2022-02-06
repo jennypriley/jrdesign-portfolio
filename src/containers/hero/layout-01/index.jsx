@@ -124,7 +124,7 @@ const HeroArea = ({ data, id }) => {
 
                         <div className="order-1 order-lg-2 col-lg-5">
                             {data?.images?.[0]?.src && (
-                                <div>
+                                <div className="shadow-none">
                                     <Image
                                         src={data.images[0].src}
                                         alt={data.images[0]?.alt || "Hero"}
