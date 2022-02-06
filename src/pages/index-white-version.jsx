@@ -23,7 +23,7 @@ const IndexPage = ({ data }) => {
     const content = normalizedData(data?.homePage?.content || []);
 
     return (
-        <Layout pageTitle="Home Default" className="white-version">
+        <Layout pageTitle="Jenny Riley" className="white-version">
             <Header
                 data={{
                     ...data.header,

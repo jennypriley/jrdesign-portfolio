@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: "https://www.yourdomain.tld",
-        title: "Inbio - Personal Portfolio React Template",
-        description: "Awesome Gatsby template",
+        siteUrl: "https://jennyriley.design",
+        title: "Brand & UX Designer",
+        description: "User-focused professional",
         author: "Rainbow IT",
         siteLanguage: "en",
         image: "banner.jpg",
@@ -13,21 +13,15 @@ module.exports = {
         socials: [
             {
                 id: 1,
-                title: "facebook",
-                path: "https://facebook.com",
-                icon: "Facebook",
+                title: "linkedin",
+                path: "https://www.linkedin.com/in/jril/",
+                icon: "Linkedin",
             },
             {
                 id: 2,
-                title: "instagram",
-                path: "https://instagram.com",
-                icon: "Instagram",
-            },
-            {
-                id: 3,
-                title: "linkedin",
-                path: "https://linkedin.com",
-                icon: "Linkedin",
+                title: "dribbble",
+                path: "https://dribbble.com/jennyrileydesign",
+                icon: "Dribbble",
             },
         ],
         contact: {
