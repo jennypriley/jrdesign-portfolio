@@ -124,13 +124,11 @@ const HeroArea = ({ data, id }) => {
 
                         <div className="order-1 order-lg-2 col-lg-5">
                             {data?.images?.[0]?.src && (
-                                <div className="thumbnail">
-                                    <div className="inner">
-                                        <Image
-                                            src={data.images[0].src}
-                                            alt={data.images[0]?.alt || "Hero"}
-                                        />
-                                    </div>
+                                <div>
+                                    <Image
+                                        src={data.images[0].src}
+                                        alt={data.images[0]?.alt || "Hero"}
+                                    />
                                 </div>
                             )}
                         </div>
