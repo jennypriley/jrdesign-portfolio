@@ -4,8 +4,8 @@
     "menu": [
         {
             "id": 1,
-            "text": "Home",
-            "path": "home"
+            "text": "Welcome",
+            "path": "welcome"
         },
         {
             "id": 2,
@@ -18,24 +18,9 @@
             "path": "portfolio"
         },
         {
-            "id": 4,
-            "text": "Resume",
-            "path": "resume"
-        },
-        {
             "id": 5,
-            "text": "Clients",
-            "path": "clients"
-        },
-        {
-            "id": 6,
-            "text": "Pricing",
-            "path": "pricing"
-        },
-        {
-            "id": 7,
-            "text": "Blog",
-            "path": "blog"
+            "text": "Testimonials",
+            "path": "testimonial"
         },
         {
             "id": 8,

@@ -8,7 +8,6 @@ import Footer from "@layout/footer/layout-02";
 import HeroArea from "@containers/hero/layout-05";
 import ExperienceArea from "@containers/experience/layout-02";
 import EducationArea from "@containers/education/layout-02";
-import ResumeArea from "@containers/resume/layout-01";
 import PortfolioArea from "@containers/portfolio/layout-04";
 import BlogArea from "@containers/blog/layout-01";
 import EducationTabArea from "@containers/education/layout-01";
@@ -32,16 +31,6 @@ const IndexDeveloperPage = ({ data }) => {
                 <HeroArea data={content["hero-section"]} />
                 <ExperienceArea data={content["experience-section"]} />
                 <EducationArea data={content["education-section"]} />
-                <ResumeArea data={content["resume-section"]}>
-                    <EducationTabArea
-                        data={content["education-resume-section"]}
-                    />
-                    <SkillArea data={content["skill-resume-section"]} />
-                    <ExperienceTabArea
-                        data={content["experience-resume-section"]}
-                    />
-                    <InterviewArea data={content["interview-resume-section"]} />
-                </ResumeArea>
                 <PortfolioArea data={content["portfolio-section"]} />
                 <BlogArea
                     data={{

@@ -3,7 +3,7 @@
     "section": "header-3",
     "button": {
         "id": 1,
-        "content": "BUY NOW",
+        "content": "DOWNLOAD MY CV",
         "path": "#!",
         "className": "no-shadow btn-theme"
     },

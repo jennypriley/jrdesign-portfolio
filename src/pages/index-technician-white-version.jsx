@@ -9,7 +9,6 @@ import Bio from "@containers/bio/layout-01";
 import About from "@containers/about/layout-01";
 import Service from "@containers/service/layout-02";
 import Client from "@containers/client/layout-02";
-import Resume from "@containers/resume/layout-02";
 import Skill from "@containers/skill/layout-04";
 import Portfolio from "@containers/portfolio/layout-02";
 import Blog from "@containers/blog/layout-02";
