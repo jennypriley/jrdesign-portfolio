@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         siteUrl: "https://jennyriley.design",
-        title: "Brand & UX Designer",
+        title: "Design Portfolio",
         description: "User-focused professional",
         author: "Rainbow IT",
         siteLanguage: "en",

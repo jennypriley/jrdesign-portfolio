@@ -6,10 +6,10 @@
             "section": "hero-section",
             "headings": [
                 {
-                    "content": ""
+                    "content": "Hey there! It's nice of you to stop by."
                 },
                 {
-                    "content": "Hi, I’m <span>Jenny Riley</span>,"
+                    "content": "I’m <span>Jenny Riley</span>,"
                 }
             ],
             "animated_texts": [
@@ -20,32 +20,32 @@
             ],
             "texts": [
                 {
-                    "content": "With curiosity and empathy, I use visual design to create unique brands that connect businesses with their valued customers."
+                    "content": "With curiosity & a user lens, I use visual design to create unique brands that connect businesses with their customers."
                 }
             ],
             "skills": [
                 {
                     "id": 1,
-                    "title": "developer",
+                    "title": "figma",
                     "image": {
                         "src": "../images/icons/icons-03.png",
-                        "alt": "Skill Icon"
+                        "alt": "Figma Icon"
                     }
                 },
                 {
                     "id": 2,
-                    "title": "developer",
+                    "title": "illustrator",
                     "image": {
-                        "src": "../images/icons/icons-01.png",
-                        "alt": "Skill Icon"
+                        "src": "../images/icons/icons-06.png",
+                        "alt": "Adobe Illustrator Icon"
                     }
                 },
                 {
                     "id": 3,
-                    "title": "developer",
+                    "title": "photoshop",
                     "image": {
                         "src": "../images/icons/icons-04.png",
-                        "alt": "Skill Icon"
+                        "alt": "Adobe Photoshop Icon"
                     }
                 }
             ],
