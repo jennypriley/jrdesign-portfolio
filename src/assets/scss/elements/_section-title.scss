@@ -2,9 +2,9 @@
     Section Title Styles
 -------------------------- */
 
-.section-separator{
+.section-separator {
     position: relative;
-    &::after{
+    &::after {
         position: absolute;
         max-width: 1270px;
         height: 1px;
@@ -16,7 +16,7 @@
         margin: 0 auto;
     }
 }
-.section-flex{
+.section-flex {
     @media #{$small-mobile} {
         flex: none;
         display: block !important;

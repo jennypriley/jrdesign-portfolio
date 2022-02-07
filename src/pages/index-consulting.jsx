@@ -24,6 +24,7 @@ const IndexConsultingPage = ({ data }) => {
             <main className="page-wrapper-two">
                 <HeroArea data={content["hero-section"]} />
                 <ServiceArea data={content["service-section"]} />
+                <PortfolioArea data={content["portfolio-section"]} />
                 <ContactArea
                     data={{
                         ...content["contact-section"],
