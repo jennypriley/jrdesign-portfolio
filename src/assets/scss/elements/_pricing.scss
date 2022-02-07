@@ -292,7 +292,7 @@
                         margin-top: 5px;
                     }
                 }
-                
+
                 svg {
                     width: 14px;
                     margin-right: 7px;
@@ -313,7 +313,6 @@
                     }
                 }
             }
-            
         }
     }
 }
@@ -450,7 +449,7 @@
         }
 
         &::before {
-            content: '';
+            content: "";
             position: absolute;
             transition: var(--transition);
             width: 100%;

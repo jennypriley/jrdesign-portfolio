@@ -1,4 +1,4 @@
-*{
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -16,7 +16,6 @@ section,
 summary {
     display: block;
 }
-
 
 audio,
 canvas,
@@ -38,7 +37,6 @@ a {
     text-decoration: none;
     outline: none;
 }
-
 
 a:hover,
 a:focus,
@@ -70,7 +68,6 @@ mark {
     color: #ffffff;
 }
 
-
 code,
 kbd,
 pre,
@@ -89,7 +86,7 @@ ins {
 }
 
 pre {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: var(--font-size-b3);
     margin: 10px 0;
     overflow: auto;
@@ -148,8 +145,8 @@ nav ol {
     list-style-image: none;
 }
 
-li>ul,
-li>ol {
+li > ul,
+li > ol {
     margin: 0;
 }
 
@@ -313,7 +310,6 @@ cite,
 em {
     font-style: italic;
 }
-
 
 /* BlockQuote  */
 blockquote,

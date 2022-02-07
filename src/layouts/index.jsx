@@ -6,6 +6,7 @@ import SEO from "@components/seo";
 import "@assets/css/bootstrap.min.css";
 import "@assets/scss/style.scss";
 import "aos/dist/aos.css";
+import Client from "./client";
 
 const Layout = ({ children, color, className, pageTitle }) => {
     const [demoOpen, setDemoOpen] = useState(false);
@@ -19,6 +20,7 @@ const Layout = ({ children, color, className, pageTitle }) => {
                 bodyClass={cn(`template-color-${color} spybody`, className)}
                 titleTemplate={pageTitle}
             />
+            <Client />
             {children}
             <ScrollToTop />
         </>
