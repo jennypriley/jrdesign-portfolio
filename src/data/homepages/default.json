@@ -61,7 +61,7 @@
             "section": "service-section",
             "section_title": {
                 "title": "Skills",
-                "subtitle": "What I Bring to the Table"
+                "subtitle": "This Is What I Bring to the Table"
             },
             "items": [
                 {
@@ -203,51 +203,48 @@
             "section": "testimonial-section",
             "section_title": {
                 "title": "Testimonials",
-                "subtitle": "Here's What My Clients Are Saying"
+                "subtitle": "Here's What Others Have to Say"
             },
             "items": [
                 {
                     "id": 1,
-                    "title": "Nevine Acotanza",
-                    "subtitle": "Rainbow-Themes",
-                    "designation": "Chief Operating Officer",
-                    "projectTitle": "Android App Development",
-                    "projectMeta": "via Upwork - Mar 4, 2015 - Aug 30, 2021",
+                    "title": "Firstname Lastname",
+                    "designation": "Job Title",
+                    "projectTitle": "Project Type",
+                    "projectMeta": "Project/Company - MM/YYYY - MM/YYYY",
                     "rating": "5",
                     "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris .",
                     "images": [
                         {
-                            "src": "../images/testimonial/final-home--1st.png"
+                            "src": "../images/portfolio/portfolio-soon.png"
                         }
                     ]
                 },
                 {
                     "id": 2,
-                    "title": "Jone Duone Joe",
-                    "subtitle": "Bound - Trolola",
-                    "designation": "Operating Officer",
-                    "projectTitle": "Web App Development",
-                    "projectMeta": "Upwork - Mar 4, 2016 - Aug 30, 2021",
-                    "rating": "4",
-                    "description": "Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris.",
+                    "title": "Firstname Lastname",
+                    "designation": "Job Title",
+                    "projectTitle": "Project Type",
+                    "projectMeta": "Project/Company - MM/YYYY - MM/YYYY",
+                    "rating": "5",
+                    "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris .",
                     "images": [
                         {
-                            "src": "../images/testimonial/final-home--2nd.png"
+                            "src": "../images/portfolio/portfolio-soon.png"
                         }
                     ]
                 },
                 {
                     "id": 3,
-                    "title": "Nevine Dhawan",
-                    "subtitle": "Glassfisom",
-                    "designation": "CEO Of Officer",
-                    "projectTitle": "Android App Design",
-                    "projectMeta": "Fiver - Mar 4, 2015 - Aug 30, 2021",
+                    "title": "Firstname Lastname",
+                    "designation": "Job Title",
+                    "projectTitle": "Project Type",
+                    "projectMeta": "Project/Company - MM/YYYY - MM/YYYY",
                     "rating": "5",
-                    "description": "No more question for design. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris .",
+                    "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris .",
                     "images": [
                         {
-                            "src": "../images/testimonial/final-home--3rd.png"
+                            "src": "../images/portfolio/portfolio-soon.png"
                         }
                     ]
                 }

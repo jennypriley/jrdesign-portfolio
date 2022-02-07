@@ -68,7 +68,7 @@ const Testimonial = ({
                         )}
                     </div>
                     <div className="seperator"></div>
-                    <p className="discription">{desc}</p>
+                    <p className="description">{desc}</p>
                 </div>
             </div>
         </div>

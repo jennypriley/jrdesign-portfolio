@@ -50,7 +50,7 @@ const AboutArea = ({ data }) => {
                         />
                     )}
                     {data?.texts?.[0] && (
-                        <p className="discription color-body">
+                        <p className="description color-body">
                             {data.texts[0]?.content}
                         </p>
                     )}
