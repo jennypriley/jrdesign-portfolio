@@ -55,7 +55,7 @@ Rn Slick Dots Style
             }
             &.slick-active {
                 button {
-                    background: var(--color-primary);
+                    background: #df5c33;
                 }
             }
         }
@@ -183,7 +183,7 @@ Rn Slick Dots Style
             top: 80px;
             z-index: 3;
             border-radius: 6px;
-            color: #fff;
+            color: #f9fdff;
 
             &:focus {
                 color: var(--color-primary);
@@ -293,7 +293,7 @@ Rn Slick Dots Style
 
             &.slick-active {
                 button {
-                    background: var(--color-primary);
+                    background: #df5c33;
                 }
             }
         }
