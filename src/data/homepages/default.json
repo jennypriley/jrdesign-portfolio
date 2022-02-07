@@ -118,407 +118,83 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "The services provide for design",
-                    "category": "Development",
+                    "title": "Kaus Insurance Co. Health Marketplace",
+                    "category": "Web Application",
                     "texts": [
                         {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+                            "content": "Project details & images coming soon."
                         },
                         {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
+                            "content": "Please check back later."
                         }
                     ],
                     "images": [
                         {
-                            "src": "../images/portfolio/portfolio-01.jpg"
+                            "src": "../images/portfolio/portfolio-soon.png"
                         }
                     ],
                     "path": "#!",
-                    "likeCount": 600
+                    "likeCount": 0
                 },
                 {
                     "id": 2,
-                    "title": "Mobile app landing design & app maintain",
-                    "category": "Application",
+                    "title": "Dragonstash Campaign Loot Manager",
+                    "category": "Web & Mobile Application",
                     "texts": [
                         {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+                            "content": "Project details & images coming soon."
                         },
                         {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
+                            "content": "Please check back later."
                         }
                     ],
                     "images": [
                         {
-                            "src": "../images/portfolio/portfolio-02.jpg"
+                            "src": "../images/portfolio/portfolio-soon.png"
                         }
                     ],
                     "path": "#!",
-                    "likeCount": 750
+                    "likeCount": 0
                 },
                 {
                     "id": 3,
-                    "title": "Logo design creativity & Application",
-                    "category": "Photoshop",
+                    "title": "Remote Happy Hour (Name Pending)",
+                    "category": "Responsive Web Application",
                     "texts": [
                         {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+                            "content": "Project details & images coming soon."
                         },
                         {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
+                            "content": "Please check back later."
                         }
                     ],
                     "images": [
                         {
-                            "src": "../images/portfolio/portfolio-03.jpg"
+                            "src": "../images/portfolio/portfolio-soon.png"
                         }
                     ],
                     "path": "#!",
-                    "likeCount": 630
+                    "likeCount": 0
                 },
                 {
                     "id": 4,
-                    "title": "Mobile app landing design & Services",
-                    "category": "Figma",
+                    "title": "Adding a Feature to Duolingo",
+                    "category": "Mobile Prototype",
                     "texts": [
                         {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
+                            "content": "Project details & images coming soon."
                         },
                         {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
+                            "content": "Please check back later."
                         }
                     ],
                     "images": [
                         {
-                            "src": "../images/portfolio/portfolio-04.jpg"
+                            "src": "../images/portfolio/portfolio-soon.png"
                         }
                     ],
                     "path": "#!",
-                    "likeCount": 360
-                },
-                {
-                    "id": 5,
-                    "title": "Design for tecnology & services",
-                    "category": "Web Design",
-                    "texts": [
-                        {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
-                        },
-                        {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-05.jpg"
-                        }
-                    ],
-                    "path": "#!",
-                    "likeCount": 280
-                },
-                {
-                    "id": 6,
-                    "title": "App for tecnology & services",
-                    "category": "Web Design",
-                    "texts": [
-                        {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
-                        },
-                        {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-06.jpg"
-                        }
-                    ],
-                    "path": "#!",
-                    "likeCount": 600
-                }
-            ]
-        },
-        {
-            "id": "default-home-resume",
-            "section": "resume-section",
-            "section_title": {
-                "title": "My Resume",
-                "subtitle": "7+ Years of Experience"
-            }
-        },
-        {
-            "id": "default-home-education",
-            "section": "education-section",
-            "title": "Education",
-            "inner": [
-                {
-                    "id": "education-section-left",
-                    "section_title": {
-                        "title": "Education Quality",
-                        "subtitle": "2007 - 2010"
-                    },
-                    "items": [
-                        {
-                            "id": 1,
-                            "title": "Personal Portfolio April Fools",
-                            "subtitle": "University of DVI (1997 - 2001)",
-                            "rating": "4.30/5",
-                            "description": "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 2,
-                            "title": "Examples Of Personal Portfolio",
-                            "subtitle": "College of Studies (2000 - 2002)",
-                            "rating": "4.50/5",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 3,
-                            "title": "Tips For Personal Portfolio",
-                            "subtitle": "University of Studies (1997 - 2001)",
-                            "rating": "4.80/5",
-                            "description": "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        }
-                    ]
-                },
-                {
-                    "id": "education-section-right",
-                    "section_title": {
-                        "title": "Job Experience",
-                        "subtitle": "2007 - 2010"
-                    },
-                    "items": [
-                        {
-                            "id": 1,
-                            "title": "Diploma in Web Development",
-                            "subtitle": "BSE In CSE (2004 - 2008)",
-                            "rating": "4.70/5",
-                            "description": "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 2,
-                            "title": "The Personal Portfolio Mystery",
-                            "subtitle": "Job at Rainbow-Themes (2008 - 2016)",
-                            "rating": "4.95/5",
-                            "description": "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 3,
-                            "title": "Diploma in Computer Science",
-                            "subtitle": "Works at Plugin Development (2016 - 2020)",
-                            "rating": "5.00/5",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "default-home-skill",
-            "section": "skill-section",
-            "title": "professional Skills",
-            "inner": [
-                {
-                    "id": "default-home-skill-left",
-                    "section_title": {
-                        "title": "Design Skill",
-                        "subtitle": "Features"
-                    },
-                    "items": [
-                        {
-                            "id": 1,
-                            "title": "PHOTOSHOT",
-                            "value": 85
-                        },
-                        {
-                            "id": 2,
-                            "title": "FIGMA",
-                            "value": 95
-                        },
-                        {
-                            "id": 3,
-                            "title": "ADOBE XD",
-                            "value": 60
-                        },
-                        {
-                            "id": 4,
-                            "title": "ADOBE ILLUSTRATOR",
-                            "value": 70
-                        },
-                        {
-                            "id": 5,
-                            "title": "DESIGN",
-                            "value": 90
-                        }
-                    ]
-                },
-                {
-                    "id": "default-home-skill-right",
-                    "section_title": {
-                        "title": "Design Skill",
-                        "subtitle": "Features"
-                    },
-                    "items": [
-                        {
-                            "id": 1,
-                            "title": "HTML",
-                            "value": 85
-                        },
-                        {
-                            "id": 2,
-                            "title": "CSS",
-                            "value": 80
-                        },
-                        {
-                            "id": 3,
-                            "title": "JAVASCRIPT",
-                            "value": 90
-                        },
-                        {
-                            "id": 4,
-                            "title": "SOFTWARE",
-                            "value": 75
-                        },
-                        {
-                            "id": 5,
-                            "title": "PLUGIN",
-                            "value": 70
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "default-home-experience",
-            "section": "experience-section",
-            "title": "experience",
-            "inner": [
-                {
-                    "id": "default-home-experience-left",
-                    "section_title": {
-                        "title": "Education Quality",
-                        "subtitle": "2007 - 2010"
-                    },
-                    "items": [
-                        {
-                            "id": 1,
-                            "title": "Personal Portfolio April Fools",
-                            "subtitle": "University of DVI (1997 - 2001)",
-                            "rating": "4.30/5",
-                            "description": "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 2,
-                            "title": "Examples Of Personal Portfolio",
-                            "subtitle": "College of Studies (2000 - 2002)",
-                            "rating": "4.50/5",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 3,
-                            "title": "Tips For Personal Portfolio",
-                            "subtitle": "University of Studies (1997 - 2001)",
-                            "rating": "4.80/5",
-                            "description": "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        }
-                    ]
-                },
-                {
-                    "id": "default-home-section-right",
-                    "section_title": {
-                        "title": "Job Experience",
-                        "subtitle": "2007 - 2010"
-                    },
-                    "items": [
-                        {
-                            "id": 1,
-                            "title": "Diploma in Web Development",
-                            "subtitle": "BSE In CSE (2004 - 2008)",
-                            "rating": "4.70/5",
-                            "description": "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 2,
-                            "title": "The Personal Portfolio Mystery",
-                            "subtitle": "Job at Rainbow-Themes (2008 - 2016)",
-                            "rating": "4.95/5",
-                            "description": "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 3,
-                            "title": "Diploma in Computer Science",
-                            "subtitle": "Works at Plugin Development (2016 - 2020)",
-                            "rating": "5.00/5",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "default-home-interview",
-            "section": "interview-section",
-            "title": "interview",
-            "inner": [
-                {
-                    "id": "default-home-experience-left",
-                    "section_title": {
-                        "title": "Company Experience",
-                        "subtitle": "2007 - 2010"
-                    },
-                    "items": [
-                        {
-                            "id": 1,
-                            "title": "Personal Portfolio April Fools",
-                            "subtitle": "University of DVI (1997 - 2001)",
-                            "rating": "4.30/5",
-                            "description": "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 2,
-                            "title": "Examples Of Personal Portfolio",
-                            "subtitle": "College of Studies (2000 - 2002)",
-                            "rating": "4.50/5",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 3,
-                            "title": "Tips For Personal Portfolio",
-                            "subtitle": "University of Studies (1997 - 2001)",
-                            "rating": "4.80/5",
-                            "description": "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        }
-                    ]
-                },
-                {
-                    "id": "default-home-section-right",
-                    "section_title": {
-                        "title": "Job Experience",
-                        "subtitle": "2007 - 2010"
-                    },
-                    "items": [
-                        {
-                            "id": 1,
-                            "title": "Diploma in Web Development",
-                            "subtitle": "BSE In CSE (2004 - 2008)",
-                            "rating": "4.70/5",
-                            "description": "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 2,
-                            "title": "The Personal Portfolio Mystery",
-                            "subtitle": "Job at Rainbow-Themes (2008 - 2016)",
-                            "rating": "4.95/5",
-                            "description": "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        },
-                        {
-                            "id": 3,
-                            "title": "Diploma in Computer Science",
-                            "subtitle": "Works at Plugin Development (2016 - 2020)",
-                            "rating": "5.00/5",
-                            "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante."
-                        }
-                    ]
+                    "likeCount": 0
                 }
             ]
         },
