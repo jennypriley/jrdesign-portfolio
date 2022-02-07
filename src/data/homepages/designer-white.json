@@ -114,7 +114,7 @@
                 {
                     "id": 1,
                     "title": "The services provide for design",
-                    "category": "Development",
+                    "category": "lorem",
                     "texts": [
                         {
                             "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
@@ -125,7 +125,7 @@
                     ],
                     "images": [
                         {
-                            "src": "../images/portfolio/portfolio-01.jpg"
+                            "src": "../images/portfolio/portfolio-soon.png"
                         }
                     ],
                     "path": "#!",
