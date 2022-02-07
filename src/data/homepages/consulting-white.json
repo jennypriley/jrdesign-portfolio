@@ -61,8 +61,8 @@
             "id": "consulting-portfolio",
             "section": "portfolio-section",
             "section_title": {
-                "title": "My Portfolio",
-                "subtitle": "Visit my portfolio and keep your feedback"
+                "title": "Projects",
+                "subtitle": "See what I've worked on!"
             },
             "items": [
                 {

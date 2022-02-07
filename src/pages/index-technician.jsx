@@ -8,10 +8,8 @@ import HeaderImage from "@containers/header-image/layout-01";
 import Bio from "@containers/bio/layout-01";
 import About from "@containers/about/layout-01";
 import Service from "@containers/service/layout-02";
-import Client from "@containers/client/layout-02";
 import Skill from "@containers/skill/layout-04";
 import Portfolio from "@containers/portfolio/layout-02";
-import Blog from "@containers/blog/layout-02";
 import Contact from "@containers/contact/layout-02";
 import Sticky from "@ui/sticky";
 import TabContent from "react-bootstrap/TabContent";
@@ -139,13 +137,6 @@ const IndexTechnicianPage = ({ data }) => {
                                                             ]
                                                         }
                                                     />
-                                                    <Client
-                                                        data={
-                                                            content[
-                                                                "client-section"
-                                                            ]
-                                                        }
-                                                    />
                                                 </div>
                                             </div>
                                         </TabPane>
@@ -154,9 +145,6 @@ const IndexTechnicianPage = ({ data }) => {
                                                 content["resume-section"].id
                                             }
                                         >
-                                            <Resume
-                                                data={content["resume-section"]}
-                                            />
                                             <Skill
                                                 data={content["skill-section"]}
                                             />
@@ -170,18 +158,6 @@ const IndexTechnicianPage = ({ data }) => {
                                                 data={
                                                     content["portfolio-section"]
                                                 }
-                                            />
-                                        </TabPane>
-                                        <TabPane
-                                            eventKey={
-                                                content["blog-section"].id
-                                            }
-                                        >
-                                            <Blog
-                                                data={{
-                                                    blogs: data?.allArticle
-                                                        ?.nodes,
-                                                }}
                                             />
                                         </TabPane>
                                         <TabPane

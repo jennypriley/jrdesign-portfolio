@@ -8,9 +8,7 @@ import Footer from "@layout/footer/layout-02";
 import HeroArea from "@containers/hero/layout-07";
 import AboutArea from "@containers/about/layout-02";
 import PortfolioArea from "@containers/portfolio/layout-01";
-import ClientArea from "@containers/client/layout-03";
 import TestimonialArea from "@containers/testimonial/layout-01";
-import BlogArea from "@containers/blog/layout-01";
 import ContactArea from "@containers/contact/layout-01";
 
 const IndexFashionPage = ({ data }) => {
@@ -30,14 +28,7 @@ const IndexFashionPage = ({ data }) => {
                 <HeroArea data={content["hero-section"]} />
                 <AboutArea data={content["about-section"]} />
                 <PortfolioArea data={content["portfolio-section"]} />
-                <ClientArea data={content["client-section"]} />
                 <TestimonialArea data={content["testimonial-section"]} />
-                <BlogArea
-                    data={{
-                        ...content["blog-section"],
-                        blogs: data?.allArticle?.nodes,
-                    }}
-                />
                 <ContactArea
                     data={{
                         ...content["contact-section"],

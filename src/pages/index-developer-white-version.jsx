@@ -9,11 +9,6 @@ import HeroArea from "@containers/hero/layout-05";
 import ExperienceArea from "@containers/experience/layout-02";
 import EducationArea from "@containers/education/layout-02";
 import PortfolioArea from "@containers/portfolio/layout-04";
-import BlogArea from "@containers/blog/layout-01";
-import EducationTabArea from "@containers/education/layout-01";
-import SkillArea from "@containers/skill/layout-01";
-import ExperienceTabArea from "@containers/experience/layout-01";
-import InterviewArea from "@containers/interview/layout-01";
 
 const IndexDeveloperPage = ({ data }) => {
     const content = normalizedData(data?.homePage?.content || []);
@@ -32,12 +27,6 @@ const IndexDeveloperPage = ({ data }) => {
                 <ExperienceArea data={content["experience-section"]} />
                 <EducationArea data={content["education-section"]} />
                 <PortfolioArea data={content["portfolio-section"]} />
-                <BlogArea
-                    data={{
-                        ...content["blog-section"],
-                        blogs: data?.allArticle?.nodes,
-                    }}
-                />
             </main>
             <Footer
                 data={{

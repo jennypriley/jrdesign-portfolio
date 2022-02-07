@@ -8,14 +8,7 @@ import Footer from "@layout/footer/layout-01";
 import HeroArea from "@containers/hero/layout-06";
 import ServiceArea from "@containers/service/layout-04";
 import PortfolioArea from "@containers/portfolio/layout-01";
-import ClientsArea from "@containers/client/layout-01";
-import PricingArea from "@containers/pricing/layout-01";
-import BlogArea from "@containers/blog/layout-01";
 import ContactArea from "@containers/contact/layout-01";
-import EducationArea from "@containers/education/layout-01";
-import SkillArea from "@containers/skill/layout-01";
-import ExperienceArea from "@containers/experience/layout-01";
-import InterviewArea from "@containers/interview/layout-01";
 
 const IndexWebDeveloperPage = ({ data }) => {
     const content = normalizedData(data?.homePage?.content || []);
@@ -33,14 +26,6 @@ const IndexWebDeveloperPage = ({ data }) => {
                 <HeroArea data={content["hero-section"]} />
                 <ServiceArea data={content["service-section"]} />
                 <PortfolioArea data={content["portfolio-section"]} />
-                <ClientsArea data={content["client-section"]} />
-                <PricingArea data={content["pricing-section"]} />
-                <BlogArea
-                    data={{
-                        ...content["blog-section"],
-                        blogs: data?.allArticle?.nodes,
-                    }}
-                />
                 <ContactArea
                     data={{
                         ...content["contact-section"],
