@@ -66,44 +66,44 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Business Stratagy",
-                    "description": "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-                    "icon": "Menu",
+                    "title": "Vectoring",
+                    "description": "With my creative mindset and artistic talent, I create sleek, scalable icons, logos, and illustrations that add a special touch to any product.",
+                    "icon": "PenTool",
                     "path": "#!"
                 },
                 {
                     "id": 2,
-                    "title": "App Development",
-                    "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
-                    "icon": "BookOpen",
+                    "title": "Web Design",
+                    "description": "Utilizing my artistry, UX skills, and background in web development, I create a clean UI that speaks to the user.",
+                    "icon": "Layout",
                     "path": "#!"
                 },
                 {
                     "id": 3,
-                    "title": "App Development",
-                    "description": "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-                    "icon": "Tv",
+                    "title": "Testing",
+                    "description": "As a former QA Engineer, I test my own designs and challenge workflows to see how they can be improved upon.",
+                    "icon": "CheckCircle",
                     "path": "#!"
                 },
                 {
                     "id": 4,
-                    "title": "Mobile App",
-                    "description": "There are many variations of passages of Lorem Ipsum available, but the majority.",
-                    "icon": "Twitch",
+                    "title": "Empathy",
+                    "description": "I put the user at the forefront of my design decisions and understand the value of user personas.",
+                    "icon": "Heart",
                     "path": "#!"
                 },
                 {
                     "id": 5,
-                    "title": "CEO Marketing",
-                    "description": "always free from repetition, injected humour, or non-characteristic words etc.",
-                    "icon": "Wifi",
+                    "title": "Research",
+                    "description": "I strive to gain a deeper grasp of the subject matter and competing products, and gather feedback from potential users.",
+                    "icon": "BookOpen",
                     "path": "#!"
                 },
                 {
                     "id": 6,
-                    "title": "Personal Portfolio April",
-                    "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
-                    "icon": "Slack",
+                    "title": "Teamwork",
+                    "description": "My team is very important to me, and I strive to understand their roles and provide support wherever I can.",
+                    "icon": "Users",
                     "path": "#!"
                 }
             ]

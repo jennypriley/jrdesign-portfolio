@@ -17,9 +17,6 @@ const ServiceCard = ({ title, description, path, icon }) => {
                         <Anchor path={path}>{title}</Anchor>
                     </h4>
                     <p className="description">{description}</p>
-                    <Anchor className="read-more-button" path={path}>
-                        <Icon name="ArrowRight" />
-                    </Anchor>
                 </div>
             </div>
             <Anchor className="over-link" path={path}>

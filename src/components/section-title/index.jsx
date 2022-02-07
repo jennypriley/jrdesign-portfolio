@@ -11,7 +11,7 @@ const SectionTitle = ({
     ...rest
 }) => {
     return (
-        <div className={cn(`section-title text-${align}`, className)} {...rest}>
+        <div className={cn(`section-title text-center`, className)} {...rest}>
             {subtitle && <span className="subtitle">{subtitle}</span>}
             {title && <h2 className={cn("title", titleClass)}>{title}</h2>}
         </div>

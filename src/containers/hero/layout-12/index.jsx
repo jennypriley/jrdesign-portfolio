@@ -16,7 +16,7 @@ const HeroArea = ({ data }) => {
                 </div>
             )}
             <div className="container">
-                <div className="row justify-content-center text-left">
+                <div className="row justify-content-center">
                     <div className="col-lg-12">
                         <div className="content">
                             <div className="inner  mb_sm--80 mb--0">
