@@ -238,7 +238,7 @@
 
                 &.only-border {
                     background: transparent;
-                    border: 1px solid #ff014f87;
+                    border: 1px solid #1ea89887;
 
                     &::before {
                         display: none;
@@ -330,7 +330,7 @@ ul {
 
             &.slick-active {
                 button {
-                    background: var(--color-primary);
+                    background: #df5c33;
                 }
             }
 
