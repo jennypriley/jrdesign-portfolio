@@ -9,11 +9,6 @@ import "aos/dist/aos.css";
 import Client from "./client";
 
 const Layout = ({ children, color, className, pageTitle }) => {
-    const [demoOpen, setDemoOpen] = useState(false);
-    const demoHandler = () => {
-        setDemoOpen((prev) => !prev);
-    };
-
     return (
         <>
             <SEO

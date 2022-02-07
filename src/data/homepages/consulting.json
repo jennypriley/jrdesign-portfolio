@@ -36,9 +36,9 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Business Stratagy",
-                    "description": "I throw myself down among the tall grass by the stream as I lie close to the earth.",
-                    "icon": "Menu",
+                    "title": "Empathy",
+                    "description": "I put the user at the forefront of my design decisions and understand the value of user personas.",
+                    "icon": "Heart",
                     "path": "#!"
                 },
                 {
