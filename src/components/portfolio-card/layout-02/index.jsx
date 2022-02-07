@@ -12,7 +12,7 @@ const PortfolioCard = ({ title, description, feature_list, image }) => {
                     <div className="inner">
                         {title && <h5 className="title">{title}</h5>}
                         {description && (
-                            <p className="discription">{description}</p>
+                            <p className="description">{description}</p>
                         )}
 
                         <div className="ft-area">

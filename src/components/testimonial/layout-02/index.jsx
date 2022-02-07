@@ -21,7 +21,7 @@ const Testimonial = ({ image, title, designation, desc }) => {
             </div>
             <div className="testimonial-body">
                 <p
-                    className="discription"
+                    className="description"
                     dangerouslySetInnerHTML={{ __html: desc }}
                 />
             </div>

@@ -52,7 +52,7 @@ const AboutArea = ({ hasSeparator, data, id }) => {
                                 <SectionTitle {...data.section_title} />
                             )}
                             {data?.texts?.map((text, i) => (
-                                <p className="discription" key={i}>
+                                <p className="description" key={i}>
                                     {text.content}
                                 </p>
                             ))}

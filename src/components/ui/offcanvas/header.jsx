@@ -19,7 +19,7 @@ const OffcanvasHeader = ({ className, onClick, desc, logo }) => {
                     </button>
                 </div>
             </div>
-            {desc && <p className="discription">{desc}</p>}
+            {desc && <p className="description">{desc}</p>}
         </div>
     );
 };
