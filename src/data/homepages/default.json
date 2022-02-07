@@ -6,7 +6,7 @@
             "section": "hero-section",
             "headings": [
                 {
-                    "content": "Hey there! It's nice of you to stop by."
+                    "content": "Hey, it's nice of you to stop by."
                 },
                 {
                     "content": "I’m <span>Jenny Riley</span>,"
@@ -60,8 +60,8 @@
             "id": "default-home-services",
             "section": "service-section",
             "section_title": {
-                "title": "What I Do",
-                "subtitle": "Features"
+                "title": "Skills",
+                "subtitle": "What I Bring to the Table"
             },
             "items": [
                 {
@@ -112,8 +112,8 @@
             "id": "default-home-portfolio",
             "section": "portfolio-section",
             "section_title": {
-                "title": "My Portfolio",
-                "subtitle": "Visit my portfolio and keep your feedback"
+                "title": "Projects",
+                "subtitle": "See what I've worked on"
             },
             "items": [
                 {
@@ -526,8 +526,8 @@
             "id": "default-home-testimonial",
             "section": "testimonial-section",
             "section_title": {
-                "title": "Testimonial",
-                "subtitle": "What Clients Say"
+                "title": "Testimonials",
+                "subtitle": "Here's What My Clients Are Saying"
             },
             "items": [
                 {
@@ -1587,8 +1587,8 @@
             "id": "default-home-contact",
             "section": "contact-section",
             "section_title": {
-                "title": "Contact With Me",
-                "subtitle": "Contact"
+                "title": "Contact",
+                "subtitle": "Let's Collaborate"
             },
             "images": [
                 {
@@ -1597,15 +1597,15 @@
             ],
             "headings": [
                 {
-                    "content": "Nevine Acotanza"
+                    "content": "Jenny Riley"
                 },
                 {
-                    "content": "Chief Operating Officer"
+                    "content": "Brand Designer"
                 }
             ],
             "texts": [
                 {
-                    "content": "I am available for freelance work. Connect with me via and call in to my account."
+                    "content": "I'm available for design work! Connect with me via email or LinkedIn to chat about how I can contribute to your team."
                 }
             ]
         }

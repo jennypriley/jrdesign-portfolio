@@ -10,10 +10,7 @@ import AboutArea from "@containers/about/layout-02";
 import SkillArea from "@containers/skill/layout-03";
 import ServicesArea from "@containers/service/layout-01";
 import PortfolioArea from "@containers/portfolio/layout-06";
-import ClientArea from "@containers/client/layout-03";
 import TestimonialArea from "@containers/testimonial/layout-03";
-import PricingArea from "@containers/pricing/layout-02";
-import BlogArea from "@containers/blog/layout-01";
 import ContactArea from "@containers/contact/layout-01";
 
 const IndexPhotographerPage = ({ data }) => {
@@ -41,15 +38,7 @@ const IndexPhotographerPage = ({ data }) => {
                 <SkillArea data={content["skill-section"]} />
                 <ServicesArea data={content["service-section"]} />
                 <PortfolioArea data={content["portfolio-section"]} />
-                <ClientArea data={content["client-section"]} />
                 <TestimonialArea data={content["testimonial-section"]} />
-                <PricingArea data={content["pricing-section"]} />
-                <BlogArea
-                    data={{
-                        ...content["blog-section"],
-                        blogs: data?.allArticle?.nodes,
-                    }}
-                />
                 <ContactArea
                     data={{
                         ...content["contact-section"],

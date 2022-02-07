@@ -101,7 +101,7 @@ const HeroArea = ({ data, id }) => {
                                         {data?.skills && (
                                             <div className="skill-share-inner">
                                                 <span className="title">
-                                                    top skills
+                                                    top applications
                                                 </span>
                                                 <SkillShare>
                                                     {data.skills.map(

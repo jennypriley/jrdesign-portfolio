@@ -4,17 +4,17 @@
     "menu": [
         {
             "id": 1,
-            "text": "Welcome",
+            "text": "Top",
             "path": "welcome"
         },
         {
             "id": 2,
-            "text": "Features",
+            "text": "Skills",
             "path": "features"
         },
         {
             "id": 3,
-            "text": "Portfolio",
+            "text": "Projects",
             "path": "portfolio"
         },
         {
