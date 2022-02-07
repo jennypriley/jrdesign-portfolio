@@ -29,7 +29,7 @@ const PricingCard = ({ title, subtitle, price, orderLink, features }) => {
             </div>
             <div className="pricing-footer">
                 <Button path={orderLink}>
-                    <span>BUY NOW</span>
+                    <span>DOWNLOAD MY CV</span>
                 </Button>
             </div>
         </div>
