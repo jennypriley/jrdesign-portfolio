@@ -207,9 +207,10 @@
         transition: var(--transition);
         border: 2px solid #191b1e;
         padding: 0 15px;
-        font-size: 14px;
-        font-family: var(--font-secondary);
-        color: var(--color-lightn);
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-family: var(--font-primary);
+        color: #a1a1a1;
         box-shadow: var(--inner-shadow);
         letter-spacing: 1px;
 
@@ -234,9 +235,10 @@
         transition: var(--transition);
         border: 2px solid #191b1e;
         padding: 10px 15px;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 18px;
-        font-family: var(--font-secondary);
+        font-family: var(--font-primary);
+        letter-spacing: 2px;
         color: #a1a1a1;
         box-shadow: var(--inner-shadow);
         letter-spacing: 1px;
@@ -247,6 +249,7 @@
         }
 
         &:focus {
+            background-color: #191b1e;
             border-color: var(--color-primary);
             box-shadow: none;
         }
