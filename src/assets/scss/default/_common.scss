@@ -460,12 +460,14 @@ ul {
     .title {
         font-size: clamp(50px, 13vw, 180px);
         line-height: 1;
+        letter-spacing: 2px;
         margin-bottom: 0;
         color: #f9fdff;
     }
     .subtitle {
         margin-bottom: 0;
-        font-weight: 400;
+        font-weight: 200;
+        letter-spacing: 2px;
         font-size: 48px;
         color: #f9fdff;
     }
@@ -474,8 +476,9 @@ ul {
         margin-top: 10px;
         color: #f9fdff;
         opacity: 0.75;
-        font-weight: 300;
+        font-weight: 200;
         display: block;
         margin-bottom: 28px;
+        letter-spacing: 2px;
     }
 }

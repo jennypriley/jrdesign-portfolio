@@ -75,11 +75,11 @@
             span {
                 &.subtitle {
                     font-size: 14px;
-                    font-family: var(--font-secondary);
+                    font-family: var(--font-primary);
                     color: var(--color-lightn);
-                    letter-spacing: 3px;
+                    letter-spacing: 2px;
                     text-transform: uppercase;
-                    font-weight: 500;
+                    font-weight: 200;
                     display: block;
                     margin-bottom: 20px;
 
@@ -95,12 +95,13 @@
                 }
             }
             .title {
-                color: #ffffff;
-                font-weight: 700;
+                color: #f9fdff;
+                font-weight: 300;
                 font-size: 60px;
                 line-height: 75px;
+                letter-spacing: 2px;
                 margin-bottom: 22px;
-                font-family: var(--font-secondary);
+                font-family: var(--font-primary);
 
                 @media #{$lg-layout} {
                     font-size: 45px;
@@ -131,7 +132,8 @@
                 .header-caption {
                     span {
                         color: var(--color-white);
-                        font-weight: 600;
+                        font-weight: 400;
+                        letter-spacing: 2px;
                     }
                 }
 
@@ -170,6 +172,8 @@
             .description {
                 font-size: 16px;
                 line-height: 30px;
+                font-weight: 200;
+                letter-spacing: 2px;
                 color: var(--color-lightn);
                 padding-right: 16%;
                 opacity: 0.9;
@@ -197,7 +201,7 @@
                 font-size: 14px;
                 text-transform: uppercase;
                 letter-spacing: 2px;
-                font-weight: 300;
+                font-weight: 200;
                 color: var(--color-lightn);
                 display: inline-block;
                 margin-bottom: 20px;
@@ -291,7 +295,7 @@
                 font-size: 14px;
                 text-transform: uppercase;
                 letter-spacing: 2px;
-                font-weight: 300;
+                font-weight: 200;
                 color: var(--color-lightn);
                 display: inline-block;
                 margin-bottom: 20px;
@@ -572,12 +576,12 @@
                         }
 
                         .title {
-                            color: #ffffff;
-                            font-weight: 700;
+                            color: #f9fdff;
+                            font-weight: 300;
                             font-size: 52px;
                             line-height: 62px;
                             margin-bottom: 11px;
-                            font-family: var(--font-secondary);
+                            font-family: var(--font-primary);
 
                             @media #{$smlg-device} {
                                 font-size: 48px;
@@ -787,12 +791,13 @@
 
     .banner-title-area {
         .title {
-            color: #ffffff;
-            font-weight: 700;
+            color: #f9fdff;
+            font-weight: 300;
             font-size: 60px;
             line-height: 62px;
             margin-bottom: 22px;
-            font-family: var(--font-secondary);
+            letter-spacing: 2px;
+            font-family: var(--font-primary);
 
             @media #{$sm-layout} {
                 text-align: center;
@@ -938,6 +943,7 @@
     a.rn-btn,
     button.rn-btn {
         font-size: 18px;
+        font-weight: 300;
     }
 }
 
@@ -1049,6 +1055,7 @@
             span {
                 font-weight: 300;
                 font-size: 30px;
+                letter-spacing: 2px;
                 color: var(--color-primary);
             }
         }
@@ -1122,8 +1129,9 @@
             font-size: 30px;
             color: var(--color-lightn);
             span {
-                font-weight: 300;
+                font-weight: 200;
                 font-size: 30px;
+                letter-spacing: 2px;
                 color: var(--color-primary);
             }
         }
@@ -1254,7 +1262,8 @@
             }
             .status-info {
                 font-size: 18px;
-                font-weight: 500;
+                font-weight: 200;
+                letter-spacing: 2px;
             }
         }
         &::before {
@@ -1397,7 +1406,8 @@
         span {
             display: block;
             font-size: 14px;
-            font-weight: 400;
+            font-weight: 200;
+            letter-spacing: 2px;
             color: var(--color-body);
         }
     }

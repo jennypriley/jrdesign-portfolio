@@ -54,9 +54,10 @@
 
         .content {
             .title {
-                font-family: var(--color-primary);
-                font-weight: 500;
+                font-family: var(--font-secondary);
+                font-weight: 600;
                 font-size: 24px;
+                letter-spacing: 2px;
                 line-height: 32px;
                 margin-bottom: 20px;
                 color: var(--color-lightn);
@@ -72,6 +73,8 @@
                 &.description {
                     font-size: 16px;
                     line-height: 28px;
+                    letter-spacing: 2px;
+                    font-weight: 200;
                     color: var(--color-lightn);
                     margin-bottom: 22px;
                     transition: var(--transition);
