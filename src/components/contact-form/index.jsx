@@ -149,7 +149,7 @@ const ContactForm = ({ className, url }) => {
 
                     <div className="col-lg-12">
                         <Button type="submit">
-                            <span>SEND MESSAGE</span>
+                            <span>SEND MESSAGE </span>
                             <ArrowRight />
                         </Button>
                         {serverState.status && (

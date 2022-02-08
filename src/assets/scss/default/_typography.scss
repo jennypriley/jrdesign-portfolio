@@ -19,6 +19,7 @@ body {
     font-family: var(--font-primary);
     color: var(--color-body);
     font-weight: var(--p-regular);
+    letter-spacing: 2px;
 
     @media #{$lg-layout} {
         overflow: hidden;
@@ -74,6 +75,7 @@ h6,
     font-family: var(--font-secondary);
     line-height: 1.4074;
     color: var(--color-heading);
+    letter-spacing: 2px;
 }
 
 h1,
@@ -81,36 +83,42 @@ h1,
     font-size: var(--h1);
     line-height: 1.19;
     font-weight: 700;
+    letter-spacing: 2px;
 }
 
 h2,
 .h2 {
     font-size: var(--h2);
     line-height: 1.23;
+    letter-spacing: 2px;
 }
 
 h3,
 .h3 {
     font-size: var(--h3);
     line-height: 1.14;
+    letter-spacing: 2px;
 }
 
 h4,
 .h4 {
     font-size: var(--h4);
     line-height: 1.25;
+    letter-spacing: 2px;
 }
 
 h5,
 .h5 {
     font-size: var(--h5);
     line-height: 1.24;
+    letter-spacing: 2px;
 }
 
 h6,
 .h6 {
     font-size: var(--h6);
     line-height: 1.25;
+    letter-spacing: 2px;
 }
 
 h1,
@@ -127,6 +135,7 @@ h6,
 .h6 {
     a {
         color: inherit;
+        letter-spacing: 2px;
     }
 }
 
@@ -232,6 +241,7 @@ p {
     font-size: var(--font-size-b2);
     line-height: var(--line-height-b2);
     font-weight: var(--p-regular);
+    letter-spacing: 2px;
     color: var(--color-body);
     margin: 0 0 40px;
     &.b1 {
@@ -294,21 +304,25 @@ p {
 .b1 {
     font-size: var(--font-size-b1);
     line-height: var(--line-height-b1);
+    letter-spacing: 2px;
 }
 
 .b2 {
     font-size: var(--font-size-b2);
     line-height: var(--line-height-b2);
+    letter-spacing: 2px;
 }
 
 .b3 {
     font-size: var(--font-size-b3);
     line-height: var(--line-height-b3);
+    letter-spacing: 2px;
 }
 
 .b4 {
     font-size: var(--font-size-b4);
     line-height: var(--line-height-b4);
+    letter-spacing: 2px;
 }
 
 table {

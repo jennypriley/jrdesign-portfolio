@@ -41,9 +41,10 @@
             position: relative;
             transition: var(--transition);
             font-size: 13px;
-            font-weight: var(--s-regular);
+            letter-spacing: 2px;
+            font-weight: 300;
             text-transform: uppercase;
-            font-family: var(--font-secondary);
+            font-family: var(--font-primary);
             display: inline-block;
             &.active,
             &:hover {

@@ -1,9 +1,9 @@
 /*==============================
  *  Utilities
 =================================*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
 
 /* 
 font-family: 'Red Hat Display', sans-serif;
@@ -504,13 +504,14 @@ textarea:-ms-input-placeholder {
     right: 100px;
     bottom: 60px;
     text-align: center;
+    letter-spacing: 2px;
     z-index: 9811 !important;
     text-decoration: none;
     background: #fff;
     line-height: 80px;
     color: #757589;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 200;
     transition: var(--transition);
     display: inline-block;
     background: #ffffff;

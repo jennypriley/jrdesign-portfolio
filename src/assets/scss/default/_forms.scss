@@ -39,8 +39,6 @@ select {
     appearance: none;
     border: 1px solid var(--color-border);
     border-radius: 4px;
-    // background: url(../../images/icons/arrow-icon.png) 95% center no-repeat
-    //     transparent;
     padding-right: 32px;
 }
 
@@ -228,7 +226,7 @@ input[type="radio"] {
         margin-bottom: 6px;
         font-size: 14px;
         line-height: 22px;
-        font-weight: 500;
+        font-weight: 200;
     }
 
     input {
