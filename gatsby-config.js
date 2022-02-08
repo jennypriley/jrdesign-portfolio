@@ -2,14 +2,13 @@ module.exports = {
     siteMetadata: {
         siteUrl: "https://jennyriley.design",
         title: "Design Portfolio",
-        description: "User-focused professional",
-        author: "Rainbow IT",
+        description: "I use visual design to create unique brands.",
+        author: "Jenny Riley",
         siteLanguage: "en",
-        image: "banner.jpg",
-        titleTemplate: "inbio",
-        twitterUsername: "@rainbowit",
+        image: "meta-image.png",
+        titleTemplate: "JRdesign",
         getform_url:
-            "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
+            "https://getform.io/f/968dd638-15fd-4b91-8217-139867d7727a",
         socials: [
             {
                 id: 1,
