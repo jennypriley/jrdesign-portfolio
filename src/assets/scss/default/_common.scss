@@ -208,7 +208,7 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         font-weight: 500;
-        color: var(--color-lightn);
+        color: #f9fdff;
         display: inline-block;
         margin-bottom: 20px;
     }
@@ -461,18 +461,18 @@ ul {
         font-size: clamp(50px, 13vw, 180px);
         line-height: 1;
         margin-bottom: 0;
-        color: var(--color-primary);
+        color: #f9fdff;
     }
     .subtitle {
         margin-bottom: 0;
         font-weight: 400;
         font-size: 48px;
-        color: #fff;
+        color: #f9fdff;
     }
     p {
         font-size: 16px;
         margin-top: 10px;
-        color: #c6c9d8;
+        color: #f9fdff;
         opacity: 0.75;
         font-weight: 300;
         display: block;
