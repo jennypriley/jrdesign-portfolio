@@ -29,14 +29,12 @@ const ContactInfoCard = ({
             </div>
             <div className="description">
                 {desc && <p>{desc}</p>}
-                {phone && (
-                    <span className="phone">
-                        Phone: <a href={`tel:${phone}`}>+{phone}</a>
-                    </span>
-                )}
                 {email && (
                     <span className="mail">
-                        Email: <a href={`mailto:${email}`}>{email}</a>
+                        Email:{" "}
+                        <a href={`mailto:jenny.p.riley@gmail.com`}>
+                            jenny.p.riley@gmail.com
+                        </a>
                     </span>
                 )}
             </div>
