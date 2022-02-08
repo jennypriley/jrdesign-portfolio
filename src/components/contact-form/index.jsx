@@ -39,12 +39,15 @@ const ContactForm = ({ className, url }) => {
         setServerState({ submitting: true });
         axios({
             method: "post",
-            url: url,
+            url,
             data,
         })
             .then((res) => {
-                console.log();
-                handleServerResponse(true, "Thanks! for being with us", form);
+                handleServerResponse(
+                    true,
+                    "Thanks! I'll be in touch with you soon.",
+                    form
+                );
             })
             .catch((err) => {
                 handleServerResponse(false, err.response.data.error, form);
