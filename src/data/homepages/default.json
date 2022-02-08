@@ -80,9 +80,9 @@
                 },
                 {
                     "id": 3,
-                    "title": "Testing",
-                    "description": "As a former QA Engineer, I test my own designs and challenge workflows to see how they can be improved upon.",
-                    "icon": "CheckCircle",
+                    "title": "Research",
+                    "description": "I strive to gain a deeper grasp of the subject matter and competing products, and gather feedback from potential users.",
+                    "icon": "BookOpen",
                     "path": "#!"
                 },
                 {
@@ -94,9 +94,9 @@
                 },
                 {
                     "id": 5,
-                    "title": "Research",
-                    "description": "I strive to gain a deeper grasp of the subject matter and competing products, and gather feedback from potential users.",
-                    "icon": "BookOpen",
+                    "title": "Testing",
+                    "description": "As a former QA Engineer, I test my own designs and challenge workflows to see how they can be improved upon.",
+                    "icon": "CheckCircle",
                     "path": "#!"
                 },
                 {
