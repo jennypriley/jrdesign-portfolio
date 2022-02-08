@@ -16,7 +16,7 @@ const Footer = ({ className, data }) => {
                             )}
 
                             <p className="description mt--30">
-                                &copy; {new Date().getFullYear()}.
+                                &copy; {new Date().getFullYear()}
                                 {data?.copyright_text && (
                                     <span
                                         dangerouslySetInnerHTML={{
