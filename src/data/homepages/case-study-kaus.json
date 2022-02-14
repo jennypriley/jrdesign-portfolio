@@ -1,0 +1,57 @@
+{
+    "title": "case-study-kaus",
+    "content": [
+        {
+            "id": "default-home-hero",
+            "section": "hero-section",
+            "headings": [
+                {
+                    "content": "Capstone: Kaus Insurance Co."
+                }
+            ],
+            "texts": [
+                {
+                    "content": "Creating an insurance marketplace for the web."
+                }
+            ],
+            "images": [
+                {
+                    "src": "../images/slider/kaus-brand.png",
+                    "alt": "Kaus Insurance Co. branding"
+                }
+            ]
+        },
+        {
+            "id": "case-study-kaus",
+            "section": "skills-section",
+            "section_title": {
+                "title": "Kaus",
+                "subtitle": "Insurance Made Easy",
+                "description": ""
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Roles",
+                    "description": "UI/UX Designer",
+                    "icon": "Briefcase",
+                    "path": "#!"
+                },
+                {
+                    "id": 2,
+                    "title": "Tools",
+                    "description": "Figma, Illustrator, Photoshop",
+                    "icon": "Tool",
+                    "path": "#!"
+                },
+                {
+                    "id": 3,
+                    "title": "Duration",
+                    "description": "8 weeks.",
+                    "icon": "Clock",
+                    "path": "#!"
+                }
+            ]
+        }
+    ]
+}

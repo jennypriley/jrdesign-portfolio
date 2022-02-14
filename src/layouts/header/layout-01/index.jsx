@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import cn from "classnames";
-import { X } from "react-feather";
 import Logo from "@components/logo";
 import MainMenu from "@components/main-menu";
 import PopupMenu from "@components/popup-menu";
@@ -18,7 +17,7 @@ const Header = ({ className, data }) => {
         <>
             <header
                 className={cn(
-                    "rn-header haeder-default black-logo-version header--fixed header--sticky",
+                    "rn-header header-default black-logo-version header--fixed header--sticky",
                     sticky && "sticky",
                     className
                 )}
