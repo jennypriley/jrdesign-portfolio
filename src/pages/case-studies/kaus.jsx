@@ -30,7 +30,10 @@ const CaseStudyKaus = () => {
                 />
                 <ServicesArea data={content["service-section"]} />
             </main>
-            <Footer data={{ ...data.footer }} className="section-separator" />
+            <Footer
+                data={{ ...data.footer, logo: [{ src: logoImage }] }}
+                className="section-separator"
+            />
         </Layout>
     );
 };
