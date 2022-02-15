@@ -7,6 +7,7 @@ import Header from "../../layouts/header/layout-01";
 import Footer from "../../layouts/footer/layout-01";
 import HeroArea from "../../containers/hero/layout-cs";
 import ServicesArea from "../../containers/service/layout-cs";
+import logoImage from "../../data/images/logo/logo.png";
 import data from "../../data/homepages/case-study-kaus.json";
 
 const CaseStudyKaus = () => {
@@ -18,6 +19,7 @@ const CaseStudyKaus = () => {
                 data={{
                     ...data.header,
                     ...data.navigation,
+                    logo: [{ src: logoImage }],
                 }}
             />
             <main className="main-page-wrapper">
