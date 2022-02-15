@@ -89,5 +89,10 @@
                 }
             ]
         }
-    ]
+    ],
+    "footer": {
+        "id": "footer-data-1",
+        "section": "footer-1",
+        "copyright_text": " Jennifer Riley | All rights reserved"
+    }
 }
