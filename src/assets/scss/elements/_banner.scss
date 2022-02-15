@@ -30,6 +30,15 @@
     }
 }
 
+.title-space {
+    margin-bottom: 80px;
+}
+
+.image-round {
+    border: 0px transparent;
+    border-radius: 10px;
+}
+
 .slide {
     padding-bottom: 100px;
     position: relative;
@@ -59,6 +68,58 @@
 
         @media #{$sm-layout} {
             margin-top: 40px;
+        }
+
+        .csinner {
+            margin-bottom: 40px;
+            margin-top: 80px;
+
+            @media #{$smlg-device} {
+                margin-bottom: 40px !important;
+            }
+
+            @media #{$md-layout} {
+                margin-bottom: 40px;
+            }
+
+            span {
+                font-size: 14px;
+                font-family: var(--font-primary);
+                color: #f9fdff;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-weight: 200;
+                display: block;
+                margin-bottom: 20px;
+
+                @media #{$small-mobile} {
+                    letter-spacing: 1px;
+                }
+            }
+
+            .csdescription {
+                font-size: 24px;
+                line-height: 36px;
+                font-weight: 200;
+                letter-spacing: 2px;
+                color: #f9fdff;
+                padding-right: 16%;
+                opacity: 0.9;
+
+                @media #{$lg-layout} {
+                    margin-bottom: 30px;
+                }
+
+                @media #{$md-layout} {
+                    margin-bottom: 40px;
+                    padding-right: 0;
+                }
+
+                @media #{$sm-layout} {
+                    margin-bottom: 40px;
+                    padding-right: 0;
+                }
+            }
         }
 
         .inner {
@@ -170,8 +231,9 @@
             }
 
             .description {
-                font-size: 16px;
-                line-height: 30px;
+                padding-top: 24px;
+                font-size: 24px;
+                line-height: 36px;
                 font-weight: 200;
                 letter-spacing: 2px;
                 color: var(--color-lightn);

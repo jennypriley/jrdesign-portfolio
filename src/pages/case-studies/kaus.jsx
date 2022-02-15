@@ -5,8 +5,8 @@ import { normalizedData } from "@utils";
 import Layout from "@layout";
 import Header from "../../layouts/header/layout-01";
 import Footer from "../../layouts/footer/layout-01";
-import HeroArea from "../../containers/hero/layout-01";
-import ServicesArea from "../../containers/service/layout-01";
+import HeroArea from "../../containers/hero/layout-cs";
+import ServicesArea from "../../containers/service/layout-cs";
 import data from "../../data/homepages/case-study-kaus.json";
 
 const CaseStudyKaus = () => {

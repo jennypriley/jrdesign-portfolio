@@ -1,34 +1,33 @@
 {
-    "title": "case-study-kaus",
+    "title": "kaus-hero",
     "content": [
         {
             "id": "default-home-hero",
             "section": "hero-section",
+            "section_title": {
+                "title": "Kaus Insurance Co.",
+                "subtitle": "Web Application Capstone Project"
+            },
             "headings": [
                 {
-                    "content": "Capstone: Kaus Insurance Co."
+                    "content": "Introduction"
                 }
             ],
             "texts": [
                 {
-                    "content": "Creating an insurance marketplace for the web."
+                    "content": "Kaus has been in the health insurance business for over 30 years. To keep pace with competitors and better provide for their customers, Kaus wanted to rebrand and bring their services online."
                 }
             ],
             "images": [
                 {
-                    "src": "../images/slider/kaus-brand.png",
+                    "src": "src/data/images/portfolio/kaus-thumbnail.png",
                     "alt": "Kaus Insurance Co. branding"
                 }
             ]
         },
         {
-            "id": "case-study-kaus",
-            "section": "skills-section",
-            "section_title": {
-                "title": "Kaus",
-                "subtitle": "Insurance Made Easy",
-                "description": ""
-            },
+            "id": "kaus-stats",
+            "section": "service-section",
             "items": [
                 {
                     "id": 1,
@@ -47,7 +46,7 @@
                 {
                     "id": 3,
                     "title": "Duration",
-                    "description": "8 weeks.",
+                    "description": "8 weeks",
                     "icon": "Clock",
                     "path": "#!"
                 }
