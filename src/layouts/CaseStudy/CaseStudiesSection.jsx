@@ -131,7 +131,7 @@ const HeroArea = ({
                         </div>
 
                         <div className="order-1 order-lg-2 col-lg-5">
-                            {images.src && (
+                            {images?.src && (
                                 <div className="thumbnail gradient-border gradient-animation">
                                     <Image
                                         src={images.src}
