@@ -33,15 +33,13 @@ const HeroArea = ({
                     <div className="row row--30 align-items-center">
                         <div className="col-lg-12">
                             {section && (
-                                <div className="title-space">
-                                    <SectionTitle
-                                        data-aos="fade-up"
-                                        data-aos-duration="500"
-                                        data-aos-delay="100"
-                                        data-aos-once="true"
-                                        {...section}
-                                    />
-                                </div>
+                                <SectionTitle
+                                    data-aos="fade-up"
+                                    data-aos-duration="500"
+                                    data-aos-delay="100"
+                                    data-aos-once="true"
+                                    {...section}
+                                />
                             )}
                         </div>
                         <div className="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">

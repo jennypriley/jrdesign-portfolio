@@ -25,10 +25,12 @@ const CaseStudyKaus = () => {
                 }}
             />
             <main className="main-page-wrapper">
+                <br />
+                <br />
                 <CaseStudySection
                     id="home"
                     section={{
-                        title: "Introduction",
+                        title: "Kaus Insurance Co.",
                         subtitle: "The Brief & the Problem",
                     }}
                     bodyComponent={
@@ -77,141 +79,159 @@ const CaseStudyKaus = () => {
                     }}
                 />
                 <ServicesArea data={content["service-section"]} />
-                <CaseStudySection
-                    id="research"
-                    section={{
-                        title: "Research",
-                        subtitle: "Studying Competition & Potential Users",
-                    }}
-                    bodyComponent={
-                        <>
-                            <p className="csdescription">
-                                To determine how users shop for insurance
-                                online, the following goals were set:
-                            </p>
-                            <ul className="csdescription">
-                                <li>
-                                    Determine what influences customer’s
-                                    decisions on purchasing a plan sites
-                                </li>
-                                <li>
-                                    Find what trends amongst popular online
-                                    insurance
-                                </li>
-                                <li>
-                                    Understand what features and information
-                                    need to be prioritized over others
-                                </li>
-                            </ul>
-                            <br></br>
-                            <br></br>
-                            <p className="csdescription">
-                                In order to define what top Insurance companies
-                                have in common as well as what made them stand
-                                out, an analysis of five of these companies was
-                                conducted. After analyzing these companies, user
-                                archetypes were created.
-                            </p>
-                        </>
-                    }
-                    images={{
-                        src: kausIntroImage,
-                        alt: "Kaus Insurance Co. branding",
-                    }}
-                />
-                <CaseStudySection
-                    id="prototyping"
-                    section={{
-                        title: "Prototyping",
-                        subtitle: "Mockups & Interactive Demo",
-                    }}
-                    bodyComponent={
-                        <>
-                            <p className="csdescription">
-                                Before any prototyping could be done, I created
-                                task flows and a site navigation diagram to
-                                determine the different paths users may take.
-                            </p>
-                            <p className="csdescription">
-                                With requirements, branding, and site
-                                architecture in mind, I got to work on
-                                low-fidelity wireframes to focus on the general
-                                layout while adhering to a 12-column grid. Then,
-                                I moved on to high-fidelity mockups of each page
-                                before building a prototype of the main task
-                                flow of finding and purchasing a new plan.
-                            </p>
-                        </>
-                    }
-                    images={{
-                        src: kausIntroImage,
-                        alt: "Kaus Insurance Co. branding",
-                    }}
-                />
-                <CaseStudySection
-                    id="user-testing"
-                    section={{
-                        title: "User Testing",
-                        subtitle: "Site Testing & User Feedback",
-                    }}
-                    bodyComponent={
-                        <>
-                            <p className="csdescription">
-                                To ensure that the site was friendly, intuitive,
-                                and provided a better insurance shopping
-                                experience than similar sites, I conducted a
-                                round of user tests. In each of these user
-                                tests, I asked participants to complete a series
-                                of tasks, rating how easy each task was to
-                                complete, and giving their honest thoughts on
-                                the layout and task flows throughout.
-                            </p>
-                            <p className="csdescription">
-                                From these tests, users had a positive
-                                experience and enjoyed the clean, easy-to-use
-                                site. However, the design was not without flaws
-                                as only about half of the users were able to
-                                understand the plan comparison feature at a
-                                glance.
-                            </p>
-                            <p className="csdescription">
-                                With feedback in hand, I created an affinity map
-                                and priority matrix to better see potential
-                                improvements to the site’s design. Then, I added
-                                the highest priority, most impactful
-                                improvements to the prototype.
-                            </p>
-                        </>
-                    }
-                    images={{
-                        src: kausIntroImage,
-                        alt: "Kaus Insurance Co. branding",
-                    }}
-                />
-                <CaseStudySection
-                    id="user-testing"
-                    section={{
-                        title: "Conclusion",
-                        subtitle: "My Takeaway",
-                    }}
-                    bodyComponent={
-                        <>
-                            <p className="csdescription">
-                                Flaws aside, the positive feedback highlighted
-                                the fact that Kaus’ goals for their new
-                                storefront would be met by the new design.
-                                Modern, uncluttered, and easy to use, a
-                                marketplace that anyone can navigate could
-                                change expectations for all insurance
-                                marketplaces in the future.
-                            </p>
-                        </>
-                    }
-                    images={{
-                        src: kausIntroImage,
-                        alt: "Kaus Insurance Co. branding",
-                    }}
-                />
+                <div className="section-separator">
+                    <CaseStudySection
+                        id="research"
+                        section={{
+                            title: "Research",
+                            subtitle: "Studying Competition & Potential Users",
+                        }}
+                        bodyComponent={
+                            <>
+                                <p className="csdescription">
+                                    To determine how users shop for insurance
+                                    online, the following goals were set:
+                                </p>
+                                <ul className="csdescription">
+                                    <li>
+                                        Determine what influences customer’s
+                                        decisions on purchasing a plan sites
+                                    </li>
+                                    <li>
+                                        Find what trends amongst popular online
+                                        insurance
+                                    </li>
+                                    <li>
+                                        Understand what features and information
+                                        need to be prioritized over others
+                                    </li>
+                                </ul>
+                                <br></br>
+                                <br></br>
+                                <p className="csdescription">
+                                    In order to define what top Insurance
+                                    companies have in common as well as what
+                                    made them stand out, an analysis of five of
+                                    these companies was conducted. After
+                                    analyzing these companies, user archetypes
+                                    were created.
+                                </p>
+                            </>
+                        }
+                        images={{
+                            src: kausIntroImage,
+                            alt: "Kaus Insurance Co. branding",
+                        }}
+                    />
+                </div>
+                <div className="section-separator">
+                    <CaseStudySection
+                        id="prototyping"
+                        section={{
+                            title: "Prototyping",
+                            subtitle: "Mockups & Interactive Demo",
+                        }}
+                        bodyComponent={
+                            <>
+                                <p className="csdescription">
+                                    Before any prototyping could be done, I
+                                    created task flows and a site navigation
+                                    diagram to determine the different paths
+                                    users may take.
+                                </p>
+                                <p className="csdescription">
+                                    With requirements, branding, and site
+                                    architecture in mind, I got to work on
+                                    low-fidelity wireframes to focus on the
+                                    general layout while adhering to a 12-column
+                                    grid. Then, I moved on to high-fidelity
+                                    mockups of each page before building a
+                                    prototype of the main task flow of finding
+                                    and purchasing a new plan.
+                                </p>
+                            </>
+                        }
+                        images={{
+                            src: kausIntroImage,
+                            alt: "Kaus Insurance Co. branding",
+                        }}
+                    />
+                </div>
+                <div className="section-separator">
+                    <CaseStudySection
+                        id="user-testing"
+                        section={{
+                            title: "User Testing",
+                            subtitle: "Site Testing & User Feedback",
+                        }}
+                        bodyComponent={
+                            <>
+                                <p className="csdescription">
+                                    To ensure that the site was friendly,
+                                    intuitive, and provided a better insurance
+                                    shopping experience than similar sites, I
+                                    conducted a round of user tests. In each of
+                                    these user tests, I asked participants to
+                                    complete a series of tasks, rating how easy
+                                    each task was to complete, and giving their
+                                    honest thoughts on the layout and task flows
+                                    throughout.
+                                </p>
+                                <p className="csdescription">
+                                    From these tests, users had a positive
+                                    experience and enjoyed the clean,
+                                    easy-to-use site. However, the design was
+                                    not without flaws as only about half of the
+                                    users were able to understand the plan
+                                    comparison feature at a glance.
+                                </p>
+                                <p className="csdescription">
+                                    With feedback in hand, I created an affinity
+                                    map and priority matrix to better see
+                                    potential improvements to the site’s design.
+                                    Then, I added the highest priority, most
+                                    impactful improvements to the prototype.
+                                </p>
+                            </>
+                        }
+                        images={{
+                            src: kausIntroImage,
+                            alt: "Kaus Insurance Co. branding",
+                        }}
+                    />
+                </div>
+                <div className="section-separator">
+                    <CaseStudySection
+                        id="conclusion"
+                        section={{
+                            title: "Conclusion",
+                            subtitle: "My Takeaway",
+                        }}
+                        bodyComponent={
+                            <>
+                                <p className="csdescription">
+                                    Flaws aside, the positive feedback
+                                    highlighted the fact that Kaus’ goals for
+                                    their new storefront would be met by the new
+                                    design. However, I strongly believe that
+                                    having a subject matter expert involved in
+                                    the process would help elevate the design to
+                                    the next level.
+                                </p>
+                                <p className="csdescription">
+                                    Modern, uncluttered, and easy to use, a
+                                    marketplace that anyone can navigate could
+                                    change expectations for other health
+                                    insurance marketplaces in the future.
+                                </p>
+                            </>
+                        }
+                        images={{
+                            src: kausIntroImage,
+                            alt: "Kaus Insurance Co. branding",
+                        }}
+                    />
+                </div>
             </main>
             <Footer
                 data={{ ...data.footer, logo: [{ src: logoImage }] }}
