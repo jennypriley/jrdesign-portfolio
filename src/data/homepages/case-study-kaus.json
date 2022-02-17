@@ -53,6 +53,18 @@
             "texts": [
                 {
                     "content": "Kaus has been in the health insurance business for over 30 years. To keep pace with competitors and better provide for their customers, Kaus wanted to rebrand and bring their services online."
+                },
+                {
+                    "content": "Kaus’ Brand Identity:"
+                },
+                {
+                    "content": "• Trustworthy • Modern and fresh • Clean and clear"
+                },
+                {
+                    "content": "To achieve Kaus’ goals of providing a better customer experience and representing their brand, the following goals were set:"
+                },
+                {
+                    "content": "• Pick a fresh, friendly palette that draws the eye • Create a modern logo that conveys Kaus’ values • Design a clear and accessible online portal that anyone can use"
                 }
             ],
             "images": [
@@ -86,6 +98,32 @@
                     "description": "8 weeks",
                     "icon": "Clock",
                     "path": "#!"
+                }
+            ]
+        },
+        {
+            "id": "default-home-hero",
+            "section": "research-section",
+            "headings": [
+                {
+                    "content": "Research"
+                }
+            ],
+            "texts": [
+                {
+                    "content": "To determine how users shop for insurance online, the following goals were set:"
+                },
+                {
+                    "content": "• Determine what influences customer’s decisions on purchasing a plan • Find what trends amongst popular online insurance sites • Understand what features and information need to be prioritized over others"
+                },
+                {
+                    "content": "In order to define what top Insurance companies have in common as well as what made them stand out, an analysis of five of these companies was conducted. After analyzing these companies, user archetypes were created."
+                }
+            ],
+            "images": [
+                {
+                    "src": "src/data/images/portfolio/kaus-thumbnail.png",
+                    "alt": "Kaus Insurance Co. branding"
                 }
             ]
         }
