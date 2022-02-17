@@ -136,15 +136,13 @@ const HeroArea = ({ data, id }) => {
                     <div className="col-lg-12">
                         <div className="banner-inner">
                             {data?.images?.[0]?.src && (
-                                <div className="thumbnail gradient-border gradient-animation">
+                                <div className="thumbnail">
                                     <Image
                                         src={data.images[0].src}
                                         alt={
                                             data.images[0]?.alt ||
                                             "Al-Amin Bali"
                                         }
-                                        id="border"
-                                        className="gradient-border"
                                     />
                                 </div>
                             )}

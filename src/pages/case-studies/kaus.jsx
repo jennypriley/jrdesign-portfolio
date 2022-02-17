@@ -10,7 +10,11 @@ import ServicesArea from "../../containers/service/layout-cs";
 import logoImage from "../../data/images/logo/logo.png";
 import data from "../../data/homepages/case-study-kaus.json";
 import CaseStudySection from "../../layouts/CaseStudy/CaseStudiesSection";
-import kausIntroImage from "../../data/images/portfolio/kaus-thumbnail.png";
+import kausIntroImage from "../../data/images/portfolio/kaus-mac.png";
+import kausUserPersonas from "../../data/images/portfolio/kaus-user-personas.png";
+import kausFlow from "../../data/images/portfolio/kaus-flow.png";
+import kausUserTest from "../../data/images/portfolio/kaus-user-test.png";
+import kausFamily from "../../data/images/portfolio/kaus-family.png";
 
 const CaseStudyKaus = () => {
     const content = normalizedData(data?.content || []);
@@ -119,7 +123,7 @@ const CaseStudyKaus = () => {
                             </>
                         }
                         images={{
-                            src: kausIntroImage,
+                            src: kausUserPersonas,
                             alt: "Kaus Insurance Co. branding",
                         }}
                     />
@@ -152,7 +156,7 @@ const CaseStudyKaus = () => {
                             </>
                         }
                         images={{
-                            src: kausIntroImage,
+                            src: kausFlow,
                             alt: "Kaus Insurance Co. branding",
                         }}
                     />
@@ -195,7 +199,7 @@ const CaseStudyKaus = () => {
                             </>
                         }
                         images={{
-                            src: kausIntroImage,
+                            src: kausUserTest,
                             alt: "Kaus Insurance Co. branding",
                         }}
                     />
@@ -227,7 +231,7 @@ const CaseStudyKaus = () => {
                             </>
                         }
                         images={{
-                            src: kausIntroImage,
+                            src: kausFamily,
                             alt: "Kaus Insurance Co. branding",
                         }}
                     />

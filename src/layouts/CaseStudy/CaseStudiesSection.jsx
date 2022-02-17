@@ -130,7 +130,7 @@ const HeroArea = ({
 
                         <div className="order-1 order-lg-2 col-lg-5">
                             {images?.src && (
-                                <div className="thumbnail gradient-border gradient-animation">
+                                <div>
                                     <Image
                                         src={images.src}
                                         alt={images.alt || "Hero"}
