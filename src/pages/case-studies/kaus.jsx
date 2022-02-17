@@ -9,6 +9,7 @@ import HeroArea from "../../containers/hero/layout-cs";
 import ServicesArea from "../../containers/service/layout-cs";
 import logoImage from "../../data/images/logo/logo.png";
 import data from "../../data/homepages/case-study-kaus.json";
+import CaseStudySection from "../../layouts/CaseStudy/CaseStudiesSection";
 
 const CaseStudyKaus = () => {
     const content = normalizedData(data?.content || []);
@@ -29,6 +30,11 @@ const CaseStudyKaus = () => {
                     }}
                 />
                 <ServicesArea data={content["service-section"]} />
+                <CaseStudySection
+                    data={{
+                        ...content["research-section"],
+                    }}
+                />
             </main>
             <Footer
                 data={{ ...data.footer, logo: [{ src: logoImage }] }}
