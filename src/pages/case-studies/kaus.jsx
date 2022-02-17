@@ -10,10 +10,11 @@ import ServicesArea from "../../containers/service/layout-cs";
 import logoImage from "../../data/images/logo/logo.png";
 import data from "../../data/homepages/case-study-kaus.json";
 import CaseStudySection from "../../layouts/CaseStudy/CaseStudiesSection";
+import kausIntroImage from "../../data/images/portfolio/kaus-thumbnail.png";
 
 const CaseStudyKaus = () => {
     const content = normalizedData(data?.content || []);
-
+    console.log(content);
     return (
         <Layout pageTitle="Kaus Case Study">
             <Header
@@ -26,13 +27,48 @@ const CaseStudyKaus = () => {
             <main className="main-page-wrapper">
                 <HeroArea
                     data={{
-                        ...content["hero-section"],
+                        ...content["introduction"],
                     }}
                 />
                 <ServicesArea data={content["service-section"]} />
                 <CaseStudySection
-                    data={{
-                        ...content["research-section"],
+                    id="research"
+                    section={{
+                        title: "Research",
+                        subtitle: "Research",
+                    }}
+                    bodyComponent={
+                        <>
+                            <span>
+                                To determine how users shop for insurance
+                                online, the following goals were set:
+                            </span>
+                            <ul>
+                                <li>
+                                    Determine what influences customer’s
+                                    decisions on purchasing a plan sites
+                                </li>
+                                <li>
+                                    Find what trends amongst popular online
+                                    insurance
+                                </li>
+                                <li>
+                                    Understand what features and information
+                                    need to be prioritized over others
+                                </li>
+                            </ul>
+                            <span>
+                                In order to define what top Insurance companies
+                                have in common as well as what made them stand
+                                out, an analysis of five of these companies was
+                                conducted. After analyzing these companies, user
+                                archetypes were created.
+                            </span>
+                        </>
+                    }
+                    images={{
+                        src: kausIntroImage,
+                        alt: "Kaus Insurance Co. branding",
                     }}
                 />
             </main>

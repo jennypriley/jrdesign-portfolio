@@ -12,44 +12,39 @@
             {
                 "id": 1,
                 "text": "Introduction",
-                "path": "welcome"
+                "path": "home"
             },
             {
                 "id": 2,
                 "text": "Research",
-                "path": "features"
+                "path": "research"
             },
             {
                 "id": 3,
                 "text": "Prototyping",
-                "path": "portfolio"
+                "path": "prototyping"
             },
             {
                 "id": 5,
                 "text": "User Testing",
-                "path": "testimonial"
+                "path": "user-testing"
             },
             {
                 "id": 8,
                 "text": "Conclusion",
-                "path": "contacts"
+                "path": "conclusion"
             }
         ]
     },
 
     "content": [
         {
-            "id": "default-home-hero",
-            "section": "hero-section",
+            "id": "introduction",
+            "section": "introduction",
             "section_title": {
                 "title": "Kaus Insurance Co.",
                 "subtitle": "Web Application Capstone Project"
             },
-            "headings": [
-                {
-                    "content": "Introduction"
-                }
-            ],
             "texts": [
                 {
                     "content": "Kaus has been in the health insurance business for over 30 years. To keep pace with competitors and better provide for their customers, Kaus wanted to rebrand and bring their services online."
@@ -98,32 +93,6 @@
                     "description": "8 weeks",
                     "icon": "Clock",
                     "path": "#!"
-                }
-            ]
-        },
-        {
-            "id": "default-home-hero",
-            "section": "research-section",
-            "headings": [
-                {
-                    "content": "Research"
-                }
-            ],
-            "texts": [
-                {
-                    "content": "To determine how users shop for insurance online, the following goals were set:"
-                },
-                {
-                    "content": "• Determine what influences customer’s decisions on purchasing a plan • Find what trends amongst popular online insurance sites • Understand what features and information need to be prioritized over others"
-                },
-                {
-                    "content": "In order to define what top Insurance companies have in common as well as what made them stand out, an analysis of five of these companies was conducted. After analyzing these companies, user archetypes were created."
-                }
-            ],
-            "images": [
-                {
-                    "src": "src/data/images/portfolio/kaus-thumbnail.png",
-                    "alt": "Kaus Insurance Co. branding"
                 }
             ]
         }

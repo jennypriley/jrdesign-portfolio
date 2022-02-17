@@ -5,7 +5,6 @@ import Typed from "react-typed";
 import Social, { SocialLink } from "@ui/social";
 import SkillShare, { SkillItem } from "@ui/skill-share";
 import Image from "@ui/image";
-import kausIntroImage from "../../data/images/portfolio/kaus-thumbnail.png";
 import Icon from "@ui/icon";
 import {
     ImageType,
@@ -16,27 +15,31 @@ import {
     SectionTitleType,
 } from "@utils/types";
 
-//section title
-//heading1
-// heading2
-// animatedtext
-// socials
-// text
-const HeroArea = ({ data, id }) => {
+const HeroArea = ({
+    id,
+    section,
+    mainHeading,
+    subHeading,
+    animatedTexts,
+    bodyComponent,
+    socials,
+    skills,
+    images,
+}) => {
     return (
         <div id={id} className="rn-slider-area">
             <div className="slide slider-style-1">
                 <div className="container">
                     <div className="row row--30 align-items-center">
                         <div className="col-lg-12">
-                            {data?.section_title && (
+                            {section && (
                                 <div className="title-space">
                                     <SectionTitle
                                         data-aos="fade-up"
                                         data-aos-duration="500"
                                         data-aos-delay="100"
                                         data-aos-once="true"
-                                        {...data.section_title}
+                                        {...section}
                                     />
                                 </div>
                             )}
@@ -44,21 +47,20 @@ const HeroArea = ({ data, id }) => {
                         <div className="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
                             <div className="content">
                                 <div className="csinner">
-                                    {data?.headings?.[0] && (
-                                        <span>{data.headings[0].content}</span>
+                                    {mainHeading && (
+                                        <span>{mainHeading.content}</span>
                                     )}
 
-                                    {data?.headings?.[1] && (
+                                    {subHeading && (
                                         <h1 className="title">
                                             <span
                                                 className="title-main"
                                                 dangerouslySetInnerHTML={{
-                                                    __html: data.headings[1]
-                                                        .content,
+                                                    __html: subHeading.content,
                                                 }}
                                             />
                                             <br />
-                                            {data?.animated_texts && (
+                                            {animatedTexts && (
                                                 <span
                                                     className="header-caption"
                                                     id="page-top"
@@ -68,7 +70,7 @@ const HeroArea = ({ data, id }) => {
                                                         <Typed
                                                             className="animated-texts"
                                                             strings={
-                                                                data.animated_texts
+                                                                animatedTexts
                                                             }
                                                             typeSpeed={50}
                                                             backSpeed={50}
@@ -81,57 +83,45 @@ const HeroArea = ({ data, id }) => {
                                             )}
                                         </h1>
                                     )}
-                                    {data?.texts?.[0] && (
-                                        <p className="csdescription">
-                                            {data.texts[0].content}
-                                        </p>
-                                    )}
+                                    {bodyComponent}
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
-                                        {data?.socials && (
+                                        {socials && (
                                             <div className="social-share-inner-left">
                                                 <span className="title">
                                                     connect with me
                                                 </span>
                                                 <Social>
-                                                    {data.socials.map(
-                                                        (social) => (
-                                                            <SocialLink
-                                                                key={social.id}
-                                                                path={
-                                                                    social.path
+                                                    {socials.map((social) => (
+                                                        <SocialLink
+                                                            key={social.id}
+                                                            path={social.path}
+                                                        >
+                                                            <Icon
+                                                                name={
+                                                                    social.icon
                                                                 }
-                                                            >
-                                                                <Icon
-                                                                    name={
-                                                                        social.icon
-                                                                    }
-                                                                />
-                                                            </SocialLink>
-                                                        )
-                                                    )}
+                                                            />
+                                                        </SocialLink>
+                                                    ))}
                                                 </Social>
                                             </div>
                                         )}
                                     </div>
                                     <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30">
-                                        {data?.skills && (
+                                        {skills && (
                                             <div className="skill-share-inner">
                                                 <span className="title">
                                                     top applications
                                                 </span>
                                                 <SkillShare>
-                                                    {data.skills.map(
-                                                        (skill) => (
-                                                            <SkillItem
-                                                                key={skill.id}
-                                                                image={
-                                                                    skill.image
-                                                                }
-                                                            />
-                                                        )
-                                                    )}
+                                                    {skills.map((skill) => (
+                                                        <SkillItem
+                                                            key={skill.id}
+                                                            image={skill.image}
+                                                        />
+                                                    ))}
                                                 </SkillShare>
                                             </div>
                                         )}
@@ -141,11 +131,11 @@ const HeroArea = ({ data, id }) => {
                         </div>
 
                         <div className="order-1 order-lg-2 col-lg-5">
-                            {data?.images?.[0]?.src && (
+                            {images.src && (
                                 <div className="thumbnail gradient-border gradient-animation">
                                     <Image
-                                        src={kausIntroImage}
-                                        alt={data.images[0]?.alt || "Hero"}
+                                        src={images.src}
+                                        alt={images.alt || "Hero"}
                                     />
                                 </div>
                             )}
@@ -159,15 +149,15 @@ const HeroArea = ({ data, id }) => {
 
 HeroArea.propTypes = {
     id: PropTypes.string,
-    data: PropTypes.shape({
-        headings: PropTypes.arrayOf(PropTypes.shape(HeadingType)),
-        texts: PropTypes.arrayOf(PropTypes.shape(TextType)),
-        animated_texts: PropTypes.arrayOf(PropTypes.string),
-        socials: PropTypes.arrayOf(PropTypes.shape(SocialType)),
-        skills: PropTypes.arrayOf(PropTypes.shape(SkillType)),
-        images: PropTypes.arrayOf(PropTypes.shape(ImageType)),
-        section_title: PropTypes.shape(SectionTitleType),
-    }),
+    mainHeading: PropTypes.shape(HeadingType),
+    subHeading: PropTypes.shape(HeadingType),
+    texts: PropTypes.arrayOf(PropTypes.shape(TextType)),
+    animatedTexts: PropTypes.arrayOf(PropTypes.string),
+    socials: PropTypes.arrayOf(PropTypes.shape(SocialType)),
+    skills: PropTypes.arrayOf(PropTypes.shape(SkillType)),
+    images: PropTypes.arrayOf(PropTypes.shape(ImageType)),
+    section: PropTypes.shape(SectionTitleType),
+    bodyComponent: PropTypes.any,
 };
 
 HeroArea.defaultProps = {
