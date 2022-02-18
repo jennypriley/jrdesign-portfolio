@@ -39,6 +39,33 @@
     border-radius: 10px;
 }
 
+.back-link {
+    transition: var(--transition);
+    position: relative;
+    color: #1ea898;
+    font-weight: 400;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        background-color: var(--color-primary);
+        height: 1px;
+        left: 0;
+        bottom: 2px;
+        transition: var(--transition);
+        z-index: 10;
+    }
+
+    &:hover {
+        color: var(--color-primary);
+
+        &::before {
+            width: 100%;
+        }
+    }
+}
+
 .slide {
     padding-bottom: 100px;
     position: relative;
@@ -98,6 +125,30 @@
             }
 
             .csdescription {
+                font-size: 24px;
+                line-height: 36px;
+                font-weight: 200;
+                letter-spacing: 2px;
+                color: #f9fdff;
+                padding-right: 16%;
+                opacity: 0.9;
+
+                @media #{$lg-layout} {
+                    margin-bottom: 30px;
+                }
+
+                @media #{$md-layout} {
+                    margin-bottom: 40px;
+                    padding-right: 0;
+                }
+
+                @media #{$sm-layout} {
+                    margin-bottom: 40px;
+                    padding-right: 0;
+                }
+            }
+
+            .csdescriptioncenter {
                 font-size: 24px;
                 line-height: 36px;
                 font-weight: 200;

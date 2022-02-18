@@ -21,6 +21,7 @@ const HeroArea = ({
     mainHeading,
     subHeading,
     animatedTexts,
+    backComponent,
     bodyComponent,
     socials,
     skills,
@@ -32,6 +33,7 @@ const HeroArea = ({
                 <div className="container">
                     <div className="row row--30 align-items-center">
                         <div className="col-lg-12">
+                            {backComponent}
                             {section && (
                                 <SectionTitle
                                     data-aos="fade-up"
@@ -155,6 +157,7 @@ HeroArea.propTypes = {
     skills: PropTypes.arrayOf(PropTypes.shape(SkillType)),
     images: PropTypes.arrayOf(PropTypes.shape(ImageType)),
     section: PropTypes.shape(SectionTitleType),
+    backComponent: PropTypes.any,
     bodyComponent: PropTypes.any,
 };
 
