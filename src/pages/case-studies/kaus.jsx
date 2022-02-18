@@ -10,6 +10,7 @@ import ServicesArea from "../../containers/service/layout-cs";
 import logoImage from "../../data/images/logo/logo.png";
 import data from "../../data/homepages/case-study-kaus.json";
 import CaseStudySection from "../../layouts/CaseStudy/CaseStudiesSection";
+import { ArrowLeft } from "react-feather";
 import kausIntroImage from "../../data/images/portfolio/kaus-mac.png";
 import kausUserPersonas from "../../data/images/portfolio/kaus-user-personas.png";
 import kausFlow from "../../data/images/portfolio/kaus-flow.png";
@@ -33,6 +34,16 @@ const CaseStudyKaus = () => {
                 <br />
                 <CaseStudySection
                     id="home"
+                    backComponent={
+                        <>
+                            <a href="/" className="back-link">
+                                <ArrowLeft /> Back to Homepage
+                            </a>
+                            <br />
+                            <br />
+                            <br />
+                        </>
+                    }
                     section={{
                         title: "Kaus Insurance Co.",
                         subtitle: "The Brief & the Problem",
