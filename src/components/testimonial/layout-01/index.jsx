@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import Image from "@ui/image";
 import { ImageType } from "@utils/types";
-import RatingImg from "@assets/images/icons/rating.png";
 import { StaticImage } from "gatsby-plugin-image";
 
 const Testimonial = ({
@@ -52,20 +51,6 @@ const Testimonial = ({
                                 <span className="date">{projectMeta}</span>
                             )}
                         </div>
-                        {rating && (
-                            <div className="rating">
-                                {Array.from(
-                                    { length: Number(rating) },
-                                    (_, i) => (
-                                        <img
-                                            key={i}
-                                            src={RatingImg}
-                                            alt="rating"
-                                        />
-                                    )
-                                )}
-                            </div>
-                        )}
                     </div>
                     <div className="seperator"></div>
                     <p className="description">{desc}</p>

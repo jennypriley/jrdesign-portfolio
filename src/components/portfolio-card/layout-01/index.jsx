@@ -4,9 +4,8 @@ import { ImageType, TextType } from "@utils/types";
 import Image from "@ui/image";
 import Anchor from "@ui/anchor";
 import Icon from "@ui/icon";
-import PortfolioModal from "@components/modal-portfolio";
 
-const PortfolioCard = ({ title, category, likeCount, image, path, texts }) => {
+const PortfolioCard = ({ title, category, image, path }) => {
     const [show, setShow] = useState(false);
     return (
         <>
@@ -28,18 +27,6 @@ const PortfolioCard = ({ title, category, likeCount, image, path, texts }) => {
                             <div className="category-list">
                                 <Anchor path={path}>{category}</Anchor>
                             </div>
-                            <div className="meta">
-                                <span>
-                                    <button type="button">
-                                        <Icon
-                                            name="Heart"
-                                            size={13}
-                                            strokeWidth={3}
-                                        />{" "}
-                                        {likeCount && likeCount}
-                                    </button>
-                                </span>
-                            </div>
                         </div>
                         <h4 className="title">
                             <Anchor path={path}>
@@ -50,15 +37,6 @@ const PortfolioCard = ({ title, category, likeCount, image, path, texts }) => {
                     </div>
                 </div>
             </div>
-            <PortfolioModal
-                show={show}
-                setShow={setShow}
-                title={title}
-                category={category}
-                image={image}
-                texts={texts}
-                path={path}
-            />
         </>
     );
 };

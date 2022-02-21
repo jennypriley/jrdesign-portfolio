@@ -64,47 +64,47 @@ const ContactForm = ({ className, url }) => {
                 >
                     <div className="col-lg-6">
                         <FormGroup>
-                            <Label htmlFor="name">Your Name</Label>
+                            <Label htmlFor="fname">First Name</Label>
                             <Input
-                                name="name"
-                                id="name"
+                                name="fname"
+                                id="fname"
                                 type="text"
-                                {...register("name", {
-                                    required: "Name is required",
+                                {...register("fname", {
+                                    required: "First Name is required",
                                 })}
                             />
-                            {errors.name && (
-                                <ErrorText>{errors.name?.message}</ErrorText>
+                            {errors.fname && (
+                                <ErrorText>{errors.fname?.message}</ErrorText>
                             )}
                         </FormGroup>
                     </div>
 
                     <div className="col-lg-6">
                         <FormGroup>
-                            <Label htmlFor="phone">Phone Number</Label>
+                            <Label htmlFor="lname">Last Name</Label>
                             <Input
-                                name="phone"
-                                id="phone"
+                                name="lname"
+                                id="lname"
                                 type="text"
-                                {...register("phone", {
-                                    required: "Phone is required",
+                                {...register("lname", {
+                                    required: "Last Name is required",
                                 })}
                             />
-                            {errors.phone && (
-                                <ErrorText>{errors.phone?.message}</ErrorText>
+                            {errors.lname && (
+                                <ErrorText>{errors.lname?.message}</ErrorText>
                             )}
                         </FormGroup>
                     </div>
 
                     <div className="col-lg-12">
                         <FormGroup>
-                            <Label htmlFor="email">Email</Label>
+                            <Label htmlFor="email">Email Address</Label>
                             <Input
                                 id="email"
                                 name="email"
                                 type="email"
                                 {...register("email", {
-                                    required: "Email is required",
+                                    required: "Email Address is required",
                                     pattern: {
                                         value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
                                         message:
