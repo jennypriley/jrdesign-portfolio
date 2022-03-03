@@ -208,43 +208,14 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Firstname Lastname",
-                    "designation": "Job Title",
-                    "projectTitle": "Project Type",
-                    "projectMeta": "Project/Company - MM/YYYY - MM/YYYY",
-                    "rating": "5",
-                    "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris.",
+                    "title": "Gina M.",
+                    "designation": "Associate Broker | Team Leader",
+                    "projectTitle": "Logo Design & Content Writing",
+                    "projectMeta": "The Gina McKinley Group - 11/2020 to 01/2022",
+                    "description": "I was very impressed with Jenny's work.  She listened well and was able to give me multiple designs to review quickly.  I was looking for a completely different look and feel from my previous logo.  She delivered exactly what I had in mind, also giving me several choices on colors and fonts.  She was very easy to work with and I am extremely happy with both the new long and short versions.  I highly recommend her and have already referred to a client.",
                     "images": [
                         {
-                            "src": "../images/portfolio/portfolio-soon.png"
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "title": "Firstname Lastname",
-                    "designation": "Job Title",
-                    "projectTitle": "Project Type",
-                    "projectMeta": "Project/Company - MM/YYYY - MM/YYYY",
-                    "rating": "5",
-                    "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris.",
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-soon.png"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "title": "Firstname Lastname",
-                    "designation": "Job Title",
-                    "projectTitle": "Project Type",
-                    "projectMeta": "Project/Company - MM/YYYY - MM/YYYY",
-                    "rating": "5",
-                    "description": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris.",
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-soon.png"
+                            "src": "../images/testimonial/gmtestimonial.png"
                         }
                     ]
                 }
