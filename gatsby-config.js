@@ -16,12 +16,12 @@ module.exports = {
                 path: "https://www.linkedin.com/in/jril/",
                 icon: "Linkedin",
             },
-            {
-                id: 2,
-                title: "dribbble",
-                path: "https://dribbble.com/jennyrileydesign",
-                icon: "Dribbble",
-            },
+            // {
+            //     id: 2,
+            //     title: "dribbble",
+            //     path: "https://dribbble.com/jennyrileydesign",
+            //     icon: "Dribbble",
+            // },
         ],
         contact: {
             phone: "01234567890",
