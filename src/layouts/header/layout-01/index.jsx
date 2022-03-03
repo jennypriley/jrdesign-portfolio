@@ -8,6 +8,7 @@ import BurgerButton from "@ui/burger-button";
 import Button from "@ui/button";
 import { useSticky, useOffcanvas } from "@hooks";
 import { ImageType, ButtonType, MenuType, SocialType } from "@utils/types";
+import jrResume from "../../../data/downloads/JR_Resume_2022.pdf";
 
 const Header = ({ className, data }) => {
     const sticky = useSticky();
@@ -40,14 +41,16 @@ const Header = ({ className, data }) => {
                                 />
                             )}
                             <div className="header-right">
-                                {data?.button && (
-                                    <Button
-                                        path={data.button?.path}
-                                        className={data.button?.className}
-                                    >
-                                        <span>{data.button?.content}</span>
-                                    </Button>
-                                )}
+                                <a
+                                    download={"JR_Resume_2022.pdf"}
+                                    href={jrResume}
+                                >
+                                    {data?.button && (
+                                        <Button>
+                                            <span>{data.button?.content}</span>
+                                        </Button>
+                                    )}
+                                </a>
 
                                 <BurgerButton
                                     className="d-block d-xl-none"
