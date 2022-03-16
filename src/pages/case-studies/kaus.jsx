@@ -203,28 +203,24 @@ const CaseStudyKaus = () => {
                                         Methodologies
                                     </SubSectionHeading>
                                 </div>
-                                <div styles={{ display: "block !important" }}>
-                                    <div className="row row--25 mt_md--10 mt_sm--10 cs-card-gap">
-                                        {researchCards.map((item) => (
-                                            <div
-                                                key={item.id}
-                                                data-aos="fade-up"
-                                                data-aos-duration="500"
-                                                data-aos-delay="100"
-                                                data-aos-once="true"
-                                                className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
-                                            >
-                                                <ServiceCard
-                                                    title={item.title}
-                                                    description={
-                                                        item.description
-                                                    }
-                                                    path={item.path}
-                                                    icon={item.icon}
-                                                />
-                                            </div>
-                                        ))}
-                                    </div>
+                                <div className="row row--25 mt_md--10 mt_sm--10 cs-card-gap">
+                                    {researchCards.map((item) => (
+                                        <div
+                                            key={item.id}
+                                            data-aos="fade-up"
+                                            data-aos-duration="500"
+                                            data-aos-delay="100"
+                                            data-aos-once="true"
+                                            className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
+                                        >
+                                            <ServiceCard
+                                                title={item.title}
+                                                description={item.description}
+                                                path={item.path}
+                                                icon={item.icon}
+                                            />
+                                        </div>
+                                    ))}
                                 </div>
                                 <SubSectionHeading>
                                     Competitor Analysis
