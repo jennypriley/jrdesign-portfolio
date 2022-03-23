@@ -1,5 +1,5 @@
 /*=========================
-    Section Separation 
+    Section Separation
 ==========================*/
 
 .slick-dotted.slick-slider {
@@ -29,6 +29,16 @@
 .cs-section-gap {
     margin-top: -100px;
     padding: 0px 100px 100px 100px;
+    @media #{$md-layout} {
+        padding: 0px 0px 80px 0px;
+    }
+    @media #{$sm-layout} {
+        padding: 0px 0px 80px 0px;
+    }
+}
+
+.cs-card-gap {
+    padding: 0px 100px 100px 0px;
     @media #{$md-layout} {
         padding: 0px 0px 80px 0px;
     }

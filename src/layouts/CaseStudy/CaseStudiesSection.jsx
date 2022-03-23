@@ -2,16 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import SectionTitle from "@components/section-title";
 import Typed from "react-typed";
-import Social, { SocialLink } from "@ui/social";
-import SkillShare, { SkillItem } from "@ui/skill-share";
 import Image from "@ui/image";
-import Icon from "@ui/icon";
 import {
     ImageType,
     HeadingType,
     TextType,
-    SocialType,
-    SkillType,
     SectionTitleType,
 } from "@utils/types";
 
@@ -23,8 +18,6 @@ const HeroArea = ({
     animatedTexts,
     backComponent,
     bodyComponent,
-    socials,
-    skills,
     images,
 }) => {
     return (
@@ -83,53 +76,10 @@ const HeroArea = ({
                                             )}
                                         </h1>
                                     )}
-                                    {bodyComponent}
-                                </div>
-                                <div className="row">
-                                    <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
-                                        {socials && (
-                                            <div className="social-share-inner-left">
-                                                <span className="title">
-                                                    connect with me
-                                                </span>
-                                                <Social>
-                                                    {socials.map((social) => (
-                                                        <SocialLink
-                                                            key={social.id}
-                                                            path={social.path}
-                                                        >
-                                                            <Icon
-                                                                name={
-                                                                    social.icon
-                                                                }
-                                                            />
-                                                        </SocialLink>
-                                                    ))}
-                                                </Social>
-                                            </div>
-                                        )}
-                                    </div>
-                                    <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30">
-                                        {skills && (
-                                            <div className="skill-share-inner">
-                                                <span className="title">
-                                                    top applications
-                                                </span>
-                                                <SkillShare>
-                                                    {skills.map((skill) => (
-                                                        <SkillItem
-                                                            key={skill.id}
-                                                            image={skill.image}
-                                                        />
-                                                    ))}
-                                                </SkillShare>
-                                            </div>
-                                        )}
-                                    </div>
                                 </div>
                             </div>
                         </div>
-
+                        {bodyComponent}
                         <div className="order-1 order-lg-2 col-lg-5">
                             {images?.src && (
                                 <div>
@@ -153,8 +103,6 @@ HeroArea.propTypes = {
     subHeading: PropTypes.shape(HeadingType),
     texts: PropTypes.arrayOf(PropTypes.shape(TextType)),
     animatedTexts: PropTypes.arrayOf(PropTypes.string),
-    socials: PropTypes.arrayOf(PropTypes.shape(SocialType)),
-    skills: PropTypes.arrayOf(PropTypes.shape(SkillType)),
     images: PropTypes.arrayOf(PropTypes.shape(ImageType)),
     section: PropTypes.shape(SectionTitleType),
     backComponent: PropTypes.any,
