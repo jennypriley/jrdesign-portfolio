@@ -118,6 +118,27 @@
             "items": [
                 {
                     "id": 1,
+                    "title": "Adding a Feature to Duolingo",
+                    "category": "Mobile Prototype",
+                    "texts": [
+                        {
+                            "content": "Project details & images coming soon."
+                        },
+                        {
+                            "content": "Please check back later."
+                        }
+                    ],
+                    "images": [
+                        {
+                            "src": "../images/portfolio/duolingo-thumbnail.png",
+                            "alt": "Doulingo Thumbnail"
+                        }
+                    ],
+                    "path": "/case-studies/duolingo",
+                    "likeCount": 0
+                },
+                {
+                    "id": 2,
                     "title": "Kaus Insurance Co. Health Marketplace",
                     "category": "Web Application",
                     "texts": [
@@ -137,7 +158,7 @@
                     "likeCount": 0
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "title": "Dragonstash Campaign Loot Manager",
                     "category": "Web & Mobile Application",
                     "texts": [
@@ -157,29 +178,9 @@
                     "likeCount": 0
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "title": "Remote Happy Hour (Name Pending)",
                     "category": "Responsive Web Application",
-                    "texts": [
-                        {
-                            "content": "Project details & images coming soon."
-                        },
-                        {
-                            "content": "Please check back later."
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-soon.png"
-                        }
-                    ],
-                    "path": "#!",
-                    "likeCount": 0
-                },
-                {
-                    "id": 4,
-                    "title": "Adding a Feature to Duolingo",
-                    "category": "Mobile Prototype",
                     "texts": [
                         {
                             "content": "Project details & images coming soon."

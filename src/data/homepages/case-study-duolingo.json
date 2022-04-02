@@ -1,0 +1,50 @@
+{
+    "title": "duolingo-hero",
+    "header": {
+        "id": "cs-menu",
+        "button": {
+            "id": 1,
+            "content": "DOWNLOAD MY CV",
+            "path": "#!"
+        },
+        "section": "menu",
+        "menu": [
+            {
+                "id": 1,
+                "text": "Introduction",
+                "path": "home"
+            },
+            {
+                "id": 2,
+                "text": "Branding",
+                "path": "branding"
+            },
+            {
+                "id": 3,
+                "text": "Research",
+                "path": "research"
+            },
+            {
+                "id": 4,
+                "text": "Prototyping",
+                "path": "prototyping"
+            },
+            {
+                "id": 5,
+                "text": "User Testing",
+                "path": "user-testing"
+            },
+            {
+                "id": 6,
+                "text": "Conclusion",
+                "path": "conclusion"
+            }
+        ]
+    },
+
+    "footer": {
+        "id": "footer-data-1",
+        "section": "footer-1",
+        "copyright_text": " Jennifer Riley | All rights reserved"
+    }
+}
