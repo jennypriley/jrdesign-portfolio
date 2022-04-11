@@ -537,6 +537,18 @@ const CaseStudyDuolingo = () => {
                                 />
                                 <br />
                                 <br />
+                                <p>
+                                    Having issues seeing this prototype?{" "}
+                                    <a
+                                        href="https://xd.adobe.com/embed/e43cca56-0a3c-4299-b467-0b326ded3d45-b16f/?fullscreen"
+                                        className="back-link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Click here to view another way.
+                                    </a>
+                                </p>
+                                <br />
                             </div>
                         }
                     />
